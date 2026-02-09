@@ -1,0 +1,172 @@
+[0.013s] Invoking command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description -DCMAKE_INSTALL_PREFIX=/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description
+[0.112s] -- The C compiler identification is GNU 11.4.0
+[0.174s] -- The CXX compiler identification is GNU 11.4.0
+[0.181s] -- Detecting C compiler ABI info
+[0.364s] -- Detecting C compiler ABI info - done
+[0.369s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.369s] -- Detecting C compile features
+[0.370s] -- Detecting C compile features - done
+[0.375s] -- Detecting CXX compiler ABI info
+[0.553s] -- Detecting CXX compiler ABI info - done
+[0.562s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.562s] -- Detecting CXX compile features
+[0.563s] -- Detecting CXX compile features - done
+[0.567s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.578s] -- Checking for module 'OGRE'
+[0.584s] --   Found OGRE, version 1.9.0
+[0.617s] -- Checking for module 'OGRE-Terrain'
+[0.625s] --   Found OGRE-Terrain, version 1.9.0
+[0.669s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.808s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.915s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.924s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.961s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.965s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.972s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.985s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.000s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.039s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.041s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.112s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.137s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.174s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.184s] -- Looking for pthread.h
+[1.256s] -- Looking for pthread.h - found
+[1.257s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.360s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.360s] -- Found Threads: TRUE  
+[1.423s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.437s] -- Checking for module 'bullet>=2.82'
+[1.445s] --   Found bullet, version 3.05
+[1.535s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.587s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.604s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.632s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.644s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.651s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.659s] -- Searching for dependencies of ignition-math6
+[1.660s] -- Looking for OGRE...
+[1.662s] -- OGRE_PREFIX_WATCH changed.
+[1.665s] -- Checking for module 'OGRE'
+[1.675s] --   Found OGRE, version 1.9.0
+[1.711s] -- Found Ogre Ghadamon (1.9.0)
+[1.736s] -- Looking for OGRE_Paging...
+[1.739s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.739s] -- Looking for OGRE_Terrain...
+[1.744s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.744s] -- Looking for OGRE_Property...
+[1.747s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.747s] -- Looking for OGRE_RTShaderSystem...
+[1.752s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.752s] -- Looking for OGRE_Volume...
+[1.754s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.755s] -- Looking for OGRE_Overlay...
+[1.758s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.897s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.898s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.901s] -- Searching for dependencies of ignition-transport8
+[1.914s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.924s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.928s] -- Checking for module 'libzmq >= 4'
+[1.940s] --   Found libzmq , version 4.3.4
+[1.975s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.983s] -- Checking for module 'uuid'
+[1.997s] --   Found uuid, version 2.37.2
+[2.021s] -- Found UUID: TRUE  
+[2.022s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.022s] -- Searching for dependencies of ignition-msgs5
+[2.038s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.045s] -- Checking for module 'tinyxml2'
+[2.062s] --   Found tinyxml2, version 9.0.0
+[2.096s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.098s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.098s] -- Searching for dependencies of ignition-common3
+[2.098s] -- Looking for dlfcn.h - found
+[2.100s] -- Looking for libdl - found
+[2.102s] -- Found DL: TRUE  
+[2.115s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.116s] -- Searching for <ignition-common3> component [graphics]
+[2.118s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.119s] -- Searching for dependencies of ignition-common3-graphics
+[2.126s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.126s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.126s] -- Searching for dependencies of ignition-fuel_tools4
+[2.213s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.224s] -- Checking for module 'jsoncpp'
+[2.235s] --   Found jsoncpp, version 1.9.5
+[2.278s] -- Found JSONCPP: TRUE  
+[2.288s] -- Checking for module 'libzip'
+[2.310s] --   Found libzip, version 1.7.3
+[2.345s] -- Found ZIP: TRUE  
+[2.345s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.346s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.348s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.349s] -- Gazebo version: 11.10
+[2.349s] -- Checking for module 'tbb'
+[2.359s] --   Found tbb, version 2021.5.0
+[2.395s] -- Found gazebo_plugins: 3.9.0 (/opt/ros/humble/share/gazebo_plugins/cmake)
+[2.466s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.500s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.602s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.604s] -- Configured cppcheck include dirs: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description/include;$<BUILD_INTERFACE:/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description/include>
+[2.604s] -- Configured cppcheck exclude dirs and/or files: 
+[2.605s] -- Added test 'lint_cmake' to check CMake code style
+[2.607s] -- Added test 'uncrustify' to check C / C++ code style
+[2.607s] -- Configured uncrustify additional arguments: 
+[2.607s] -- Added test 'xmllint' to check XML markup files
+[2.609s] -- Configuring done
+[2.649s] -- Generating done
+[2.655s] -- Build files have been written to: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_description
+[2.672s] Invoked command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description -DCMAKE_INSTALL_PREFIX=/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description
+[2.672s] Invoking command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_description -- -j4 -l4
+[2.746s] [ 33%] [32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/pid_controller.cpp.o[0m
+[2.748s] [ 66%] [32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/plugin_drone.cpp.o[0m
+[31.585s] [100%] [32m[1mLinking CXX shared library /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description/plugins/libplugin_drone.so[0m
+[33.268s] [100%] Built target plugin_drone
+[33.276s] Invoked command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_description -- -j4 -l4
+[33.284s] Invoking command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_description
+[33.290s] -- Install configuration: ""
+[33.291s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/include
+[33.291s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/include/pid_controller.h
+[33.291s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/include/plugin_drone.h
+[33.291s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/lib/libplugin_drone.so
+[33.306s] -- Set runtime path of "/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/lib/libplugin_drone.so" to ""
+[33.307s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.sh
+[33.307s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.dsv
+[33.307s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/models
+[33.307s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/models/database.config
+[33.307s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone
+[33.307s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/model.config
+[33.308s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/sjtu_drone.sdf
+[33.308s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.stl
+[33.308s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.dae
+[33.308s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/urdf
+[33.308s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf
+[33.309s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf.xacro
+[33.309s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/worlds
+[33.309s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/worlds/skenario1_3.world
+[33.309s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/worlds/skenario2.world
+[33.309s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/worlds/small_city.world
+[33.310s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/worlds/playground.world
+[33.310s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/worlds/skenario3_2.world
+[33.310s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/ament_index/resource_index/package_run_dependencies/sjtu_drone_description
+[33.311s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/ament_index/resource_index/parent_prefix_path/sjtu_drone_description
+[33.311s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.sh
+[33.311s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.dsv
+[33.311s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.sh
+[33.311s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.dsv
+[33.312s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.bash
+[33.312s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.sh
+[33.312s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.zsh
+[33.313s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.dsv
+[33.313s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv
+[33.313s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/ament_index/resource_index/packages/sjtu_drone_description
+[33.313s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport.cmake
+[33.313s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport-noconfig.cmake
+[33.314s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.314s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_libraries-extras.cmake
+[33.314s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_targets-extras.cmake
+[33.314s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig.cmake
+[33.315s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig-version.cmake
+[33.315s] -- Installing: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_description/share/sjtu_drone_description/package.xml
+[33.321s] Invoked command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_description

@@ -1,0 +1,401 @@
+[0.098s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.098s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2a3e404910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2a3e4043a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2a3e4043a0>>)
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.245s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.245s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/seatech/Projet_Quadcopter'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Presentation) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Presentation) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Presentation) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Presentation) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Presentation) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Presentation) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Presentation) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Presentation) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Presentation) by extension 'ros'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Presentation) by extensions ['cmake', 'python']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Presentation) by extension 'cmake'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Presentation) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Presentation) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(Presentation) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing) by extension 'ros'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing) by extensions ['cmake', 'python']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing) by extension 'cmake'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing) by extension 'python'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing) by extensions ['python_setup_py']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing) by extension 'python_setup_py'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/build) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/build) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/build) ignored
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control' with type 'ros.ament_python' and name 'camera_control'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/doc) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/doc) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/doc) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/doc) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/doc) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/doc) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/doc) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/doc) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/doc) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/doc) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/doc) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/doc) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/doc) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory' with type 'ros.ament_python' and name 'drone_trajectory'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber' with type 'ros.ament_python' and name 'image_subscriber'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/install) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/install) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/install) ignored
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/log) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/log) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/log) ignored
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup' with type 'ros.ament_python' and name 'sjtu_drone_bringup'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description' with type 'ros.ament_cmake' and name 'sjtu_drone_description'
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.290s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/seatech/Projet_Quadcopter/install
+[0.291s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/seatech/ros2_ws/install
+[0.292s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 281 installed packages in /opt/ros/humble
+[0.305s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_args' from command line to 'None'
+[0.341s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_target' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'camera_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.342s] DEBUG:colcon.colcon_core.verb:Building package 'camera_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seatech/Projet_Quadcopter/build/camera_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seatech/Projet_Quadcopter/install/camera_control', 'merge_install': False, 'path': '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control', 'symlink_install': False, 'test_result_base': None}
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'drone_trajectory' build argument 'cmake_args' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'drone_trajectory' build argument 'cmake_target' from command line to 'None'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'drone_trajectory' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'drone_trajectory' build argument 'cmake_clean_cache' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'drone_trajectory' build argument 'cmake_clean_first' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'drone_trajectory' build argument 'cmake_force_configure' from command line to 'False'
+[0.342s] Level 5:colcon.colcon_core.verb:set package 'drone_trajectory' build argument 'ament_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'drone_trajectory' build argument 'catkin_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'drone_trajectory' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.343s] DEBUG:colcon.colcon_core.verb:Building package 'drone_trajectory' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seatech/Projet_Quadcopter/build/drone_trajectory', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seatech/Projet_Quadcopter/install/drone_trajectory', 'merge_install': False, 'path': '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory', 'symlink_install': False, 'test_result_base': None}
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'image_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'image_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'image_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'image_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'image_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'image_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'image_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'image_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'image_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.343s] DEBUG:colcon.colcon_core.verb:Building package 'image_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seatech/Projet_Quadcopter/build/image_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seatech/Projet_Quadcopter/install/image_subscriber', 'merge_install': False, 'path': '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber', 'symlink_install': False, 'test_result_base': None}
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_args' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_target' from command line to 'None'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.343s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.344s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seatech/Projet_Quadcopter/build/sjtu_drone_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup', 'merge_install': False, 'path': '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_target' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.344s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.344s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/seatech/Projet_Quadcopter/build/sjtu_drone_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description', 'merge_install': False, 'path': '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description', 'symlink_install': False, 'test_result_base': None}
+[0.344s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.347s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.347s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control' with build type 'ament_python'
+[0.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_control', 'ament_prefix_path')
+[0.350s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.350s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/camera_control/share/camera_control/hook/ament_prefix_path.ps1'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seatech/Projet_Quadcopter/install/camera_control/share/camera_control/hook/ament_prefix_path.dsv'
+[0.351s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/camera_control/share/camera_control/hook/ament_prefix_path.sh'
+[0.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.352s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.355s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory' with build type 'ament_python'
+[0.355s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_trajectory', 'ament_prefix_path')
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/drone_trajectory/share/drone_trajectory/hook/ament_prefix_path.ps1'
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seatech/Projet_Quadcopter/install/drone_trajectory/share/drone_trajectory/hook/ament_prefix_path.dsv'
+[0.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/drone_trajectory/share/drone_trajectory/hook/ament_prefix_path.sh'
+[0.357s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.357s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.361s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber' with build type 'ament_python'
+[0.362s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_subscriber', 'ament_prefix_path')
+[0.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/image_subscriber/share/image_subscriber/hook/ament_prefix_path.ps1'
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seatech/Projet_Quadcopter/install/image_subscriber/share/image_subscriber/hook/ament_prefix_path.dsv'
+[0.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/image_subscriber/share/image_subscriber/hook/ament_prefix_path.sh'
+[0.364s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.364s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.367s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup' with build type 'ament_python'
+[0.367s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_bringup', 'ament_prefix_path')
+[0.367s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.ps1'
+[0.367s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.dsv'
+[0.368s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.sh'
+[0.369s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.602s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control'
+[0.603s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.603s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.828s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory'
+[0.828s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.828s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.068s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber'
+[1.068s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.068s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.311s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup'
+[1.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory': PYTHONPATH=/home/seatech/Projet_Quadcopter/build/drone_trajectory/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/drone_trajectory build --build-base /home/seatech/Projet_Quadcopter/build/drone_trajectory/build install --record /home/seatech/Projet_Quadcopter/build/drone_trajectory/install.log --single-version-externally-managed install_data
+[1.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber': PYTHONPATH=/home/seatech/Projet_Quadcopter/build/image_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/image_subscriber build --build-base /home/seatech/Projet_Quadcopter/build/image_subscriber/build install --record /home/seatech/Projet_Quadcopter/build/image_subscriber/install.log --install-scripts $base/lib/image_subscriber --single-version-externally-managed install_data
+[1.806s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control': PYTHONPATH=/home/seatech/Projet_Quadcopter/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/camera_control build --build-base /home/seatech/Projet_Quadcopter/build/camera_control/build install --record /home/seatech/Projet_Quadcopter/build/camera_control/install.log --install-scripts $base/lib/camera_control --single-version-externally-managed install_data
+[2.053s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup': PYTHONPATH=/home/seatech/Projet_Quadcopter/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sjtu_drone_bringup build --build-base /home/seatech/Projet_Quadcopter/build/sjtu_drone_bringup/build install --record /home/seatech/Projet_Quadcopter/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data
+[2.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory' returned '0': PYTHONPATH=/home/seatech/Projet_Quadcopter/build/drone_trajectory/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/drone_trajectory build --build-base /home/seatech/Projet_Quadcopter/build/drone_trajectory/build install --record /home/seatech/Projet_Quadcopter/build/drone_trajectory/install.log --single-version-externally-managed install_data
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/drone_trajectory' for CMake module files
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/drone_trajectory' for CMake config files
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/drone_trajectory/lib'
+[2.131s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/drone_trajectory/bin'
+[2.131s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/pkgconfig/drone_trajectory.pc'
+[2.131s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/python3.10/site-packages'
+[2.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_trajectory', 'pythonpath')
+[2.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/drone_trajectory/share/drone_trajectory/hook/pythonpath.ps1'
+[2.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seatech/Projet_Quadcopter/install/drone_trajectory/share/drone_trajectory/hook/pythonpath.dsv'
+[2.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/drone_trajectory/share/drone_trajectory/hook/pythonpath.sh'
+[2.134s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/drone_trajectory/bin'
+[2.134s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_trajectory)
+[2.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/drone_trajectory/share/drone_trajectory/package.ps1'
+[2.135s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seatech/Projet_Quadcopter/install/drone_trajectory/share/drone_trajectory/package.dsv'
+[2.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/drone_trajectory/share/drone_trajectory/package.sh'
+[2.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/drone_trajectory/share/drone_trajectory/package.bash'
+[2.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/drone_trajectory/share/drone_trajectory/package.zsh'
+[2.137s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seatech/Projet_Quadcopter/install/drone_trajectory/share/colcon-core/packages/drone_trajectory)
+[2.139s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description' with build type 'ament_cmake'
+[2.139s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description'
+[2.140s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.140s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.200s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seatech/Projet_Quadcopter/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup:/home/seatech/Projet_Quadcopter/install/image_subscriber:/home/seatech/Projet_Quadcopter/install/drone_trajectory:/home/seatech/Projet_Quadcopter/install/camera_control:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/seatech/Projet_Quadcopter/build/sjtu_drone_description -- -j4 -l4
+[2.206s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/image_subscriber' for CMake module files
+[2.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber' returned '0': PYTHONPATH=/home/seatech/Projet_Quadcopter/build/image_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/image_subscriber build --build-base /home/seatech/Projet_Quadcopter/build/image_subscriber/build install --record /home/seatech/Projet_Quadcopter/build/image_subscriber/install.log --install-scripts $base/lib/image_subscriber --single-version-externally-managed install_data
+[2.207s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/image_subscriber' for CMake config files
+[2.207s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/image_subscriber/lib'
+[2.208s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/image_subscriber/bin'
+[2.208s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/pkgconfig/image_subscriber.pc'
+[2.208s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages'
+[2.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_subscriber', 'pythonpath')
+[2.208s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/image_subscriber/share/image_subscriber/hook/pythonpath.ps1'
+[2.209s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seatech/Projet_Quadcopter/install/image_subscriber/share/image_subscriber/hook/pythonpath.dsv'
+[2.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/image_subscriber/share/image_subscriber/hook/pythonpath.sh'
+[2.213s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/image_subscriber/bin'
+[2.213s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_subscriber)
+[2.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/image_subscriber/share/image_subscriber/package.ps1'
+[2.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seatech/Projet_Quadcopter/install/image_subscriber/share/image_subscriber/package.dsv'
+[2.214s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/image_subscriber/share/image_subscriber/package.sh'
+[2.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/image_subscriber/share/image_subscriber/package.bash'
+[2.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/image_subscriber/share/image_subscriber/package.zsh'
+[2.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seatech/Projet_Quadcopter/install/image_subscriber/share/colcon-core/packages/image_subscriber)
+[2.316s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/camera_control' for CMake module files
+[2.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control' returned '0': PYTHONPATH=/home/seatech/Projet_Quadcopter/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/camera_control build --build-base /home/seatech/Projet_Quadcopter/build/camera_control/build install --record /home/seatech/Projet_Quadcopter/build/camera_control/install.log --install-scripts $base/lib/camera_control --single-version-externally-managed install_data
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/camera_control' for CMake config files
+[2.322s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/camera_control/lib'
+[2.324s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/camera_control/bin'
+[2.324s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/camera_control/lib/pkgconfig/camera_control.pc'
+[2.324s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages'
+[2.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_control', 'pythonpath')
+[2.324s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/camera_control/share/camera_control/hook/pythonpath.ps1'
+[2.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seatech/Projet_Quadcopter/install/camera_control/share/camera_control/hook/pythonpath.dsv'
+[2.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/camera_control/share/camera_control/hook/pythonpath.sh'
+[2.327s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/camera_control/bin'
+[2.328s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_control)
+[2.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/camera_control/share/camera_control/package.ps1'
+[2.329s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seatech/Projet_Quadcopter/install/camera_control/share/camera_control/package.dsv'
+[2.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/camera_control/share/camera_control/package.sh'
+[2.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/camera_control/share/camera_control/package.bash'
+[2.332s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/camera_control/share/camera_control/package.zsh'
+[2.333s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seatech/Projet_Quadcopter/install/camera_control/share/colcon-core/packages/camera_control)
+[2.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seatech/Projet_Quadcopter/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup:/home/seatech/Projet_Quadcopter/install/image_subscriber:/home/seatech/Projet_Quadcopter/install/drone_trajectory:/home/seatech/Projet_Quadcopter/install/camera_control:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/seatech/Projet_Quadcopter/build/sjtu_drone_description -- -j4 -l4
+[2.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/seatech/Projet_Quadcopter/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup:/home/seatech/Projet_Quadcopter/install/image_subscriber:/home/seatech/Projet_Quadcopter/install/drone_trajectory:/home/seatech/Projet_Quadcopter/install/camera_control:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/seatech/Projet_Quadcopter/build/sjtu_drone_description
+[2.386s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_description)
+[2.386s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description' for CMake module files
+[2.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seatech/Projet_Quadcopter/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup:/home/seatech/Projet_Quadcopter/install/image_subscriber:/home/seatech/Projet_Quadcopter/install/drone_trajectory:/home/seatech/Projet_Quadcopter/install/camera_control:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --install /home/seatech/Projet_Quadcopter/build/sjtu_drone_description
+[2.387s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description' for CMake config files
+[2.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'cmake_prefix_path')
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.ps1'
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.dsv'
+[2.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.sh'
+[2.389s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/lib'
+[2.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'ld_library_path_lib')
+[2.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.ps1'
+[2.389s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.dsv'
+[2.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.sh'
+[2.390s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/bin'
+[2.390s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/lib/pkgconfig/sjtu_drone_description.pc'
+[2.394s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/lib/python3.10/site-packages'
+[2.395s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/bin'
+[2.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/package.ps1'
+[2.396s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv'
+[2.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/package.sh'
+[2.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/package.bash'
+[2.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/package.zsh'
+[2.398s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/colcon-core/packages/sjtu_drone_description)
+[2.400s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_description)
+[2.400s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description' for CMake module files
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description' for CMake config files
+[2.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'cmake_prefix_path')
+[2.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.ps1'
+[2.403s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.dsv'
+[2.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.sh'
+[2.404s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/lib'
+[2.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'ld_library_path_lib')
+[2.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.ps1'
+[2.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.dsv'
+[2.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.sh'
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/bin'
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/lib/pkgconfig/sjtu_drone_description.pc'
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/lib/python3.10/site-packages'
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/bin'
+[2.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/package.ps1'
+[2.409s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv'
+[2.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/package.sh'
+[2.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/package.bash'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/package.zsh'
+[2.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/colcon-core/packages/sjtu_drone_description)
+[2.483s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup' for CMake module files
+[2.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup' returned '0': PYTHONPATH=/home/seatech/Projet_Quadcopter/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sjtu_drone_bringup build --build-base /home/seatech/Projet_Quadcopter/build/sjtu_drone_bringup/build install --record /home/seatech/Projet_Quadcopter/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup' for CMake config files
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/lib'
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/bin'
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/lib/pkgconfig/sjtu_drone_bringup.pc'
+[2.484s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/lib/python3.10/site-packages'
+[2.485s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_bringup', 'pythonpath')
+[2.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.ps1'
+[2.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.dsv'
+[2.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.sh'
+[2.486s] Level 1:colcon.colcon_core.environment:checking '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/bin'
+[2.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_bringup)
+[2.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.ps1'
+[2.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.dsv'
+[2.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.sh'
+[2.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.bash'
+[2.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.zsh'
+[2.488s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/share/colcon-core/packages/sjtu_drone_bringup)
+[2.489s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.489s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.489s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.489s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.498s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.498s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.506s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.508s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seatech/Projet_Quadcopter/install/local_setup.ps1'
+[2.508s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seatech/Projet_Quadcopter/install/_local_setup_util_ps1.py'
+[2.510s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seatech/Projet_Quadcopter/install/setup.ps1'
+[2.511s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seatech/Projet_Quadcopter/install/local_setup.sh'
+[2.511s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/seatech/Projet_Quadcopter/install/_local_setup_util_sh.py'
+[2.512s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seatech/Projet_Quadcopter/install/setup.sh'
+[2.513s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seatech/Projet_Quadcopter/install/local_setup.bash'
+[2.514s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seatech/Projet_Quadcopter/install/setup.bash'
+[2.515s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/seatech/Projet_Quadcopter/install/local_setup.zsh'
+[2.516s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/seatech/Projet_Quadcopter/install/setup.zsh'

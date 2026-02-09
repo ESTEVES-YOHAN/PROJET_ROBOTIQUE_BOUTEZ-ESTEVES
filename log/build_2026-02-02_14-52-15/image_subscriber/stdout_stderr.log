@@ -1,0 +1,31 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../../build/image_subscriber/image_subscriber.egg-info/PKG-INFO
+writing dependency_links to ../../../build/image_subscriber/image_subscriber.egg-info/dependency_links.txt
+writing entry points to ../../../build/image_subscriber/image_subscriber.egg-info/entry_points.txt
+writing requirements to ../../../build/image_subscriber/image_subscriber.egg-info/requires.txt
+writing top-level names to ../../../build/image_subscriber/image_subscriber.egg-info/top_level.txt
+reading manifest file '../../../build/image_subscriber/image_subscriber.egg-info/SOURCES.txt'
+writing manifest file '../../../build/image_subscriber/image_subscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+copying image_subscriber/image_display_node.py -> /home/seatech/Projet_Quadcopter/build/image_subscriber/build/lib/image_subscriber
+copying image_subscriber/image_pose_display_node.py -> /home/seatech/Projet_Quadcopter/build/image_subscriber/build/lib/image_subscriber
+copying image_subscriber/image_poseoptical_display_node.py -> /home/seatech/Projet_Quadcopter/build/image_subscriber/build/lib/image_subscriber
+running install
+running install_lib
+copying /home/seatech/Projet_Quadcopter/build/image_subscriber/build/lib/image_subscriber/image_display_node.py -> /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber
+copying /home/seatech/Projet_Quadcopter/build/image_subscriber/build/lib/image_subscriber/image_pose_display_node.py -> /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber
+copying /home/seatech/Projet_Quadcopter/build/image_subscriber/build/lib/image_subscriber/image_poseoptical_display_node.py -> /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber
+byte-compiling /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber/image_display_node.py to image_display_node.cpython-310.pyc
+byte-compiling /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber/image_pose_display_node.py to image_pose_display_node.cpython-310.pyc
+byte-compiling /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber/image_poseoptical_display_node.py to image_poseoptical_display_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/image_subscriber/image_subscriber.egg-info to /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_display script to /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/image_subscriber
+Installing pose_display script to /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/image_subscriber
+writing list of installed files to '/home/seatech/Projet_Quadcopter/build/image_subscriber/install.log'

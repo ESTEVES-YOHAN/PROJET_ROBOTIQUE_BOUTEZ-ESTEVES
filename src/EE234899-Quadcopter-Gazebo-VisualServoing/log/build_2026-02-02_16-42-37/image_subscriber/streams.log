@@ -1,0 +1,49 @@
+[1.435s] Invoking command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber': PYTHONPATH=/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/image_subscriber build --build-base /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/build install --record /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/install.log --install-scripts $base/lib/image_subscriber --single-version-externally-managed install_data
+[1.691s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.691s]   warnings.warn(
+[1.720s] running egg_info
+[1.720s] creating ../build/image_subscriber/image_subscriber.egg-info
+[1.724s] writing ../build/image_subscriber/image_subscriber.egg-info/PKG-INFO
+[1.727s] writing dependency_links to ../build/image_subscriber/image_subscriber.egg-info/dependency_links.txt
+[1.727s] writing entry points to ../build/image_subscriber/image_subscriber.egg-info/entry_points.txt
+[1.727s] writing requirements to ../build/image_subscriber/image_subscriber.egg-info/requires.txt
+[1.727s] writing top-level names to ../build/image_subscriber/image_subscriber.egg-info/top_level.txt
+[1.728s] writing manifest file '../build/image_subscriber/image_subscriber.egg-info/SOURCES.txt'
+[1.735s] reading manifest file '../build/image_subscriber/image_subscriber.egg-info/SOURCES.txt'
+[1.736s] writing manifest file '../build/image_subscriber/image_subscriber.egg-info/SOURCES.txt'
+[1.737s] running build
+[1.737s] running build_py
+[1.737s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/build
+[1.737s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/build/lib
+[1.737s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/build/lib/image_subscriber
+[1.737s] copying image_subscriber/image_display_node.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/build/lib/image_subscriber
+[1.737s] copying image_subscriber/__init__.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/build/lib/image_subscriber
+[1.742s] copying image_subscriber/image_pose_display_node.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/build/lib/image_subscriber
+[1.742s] copying image_subscriber/image_poseoptical_display_node.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/build/lib/image_subscriber
+[1.745s] running install
+[1.745s] running install_lib
+[1.746s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/lib/python3.10/site-packages/image_subscriber
+[1.746s] copying /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/build/lib/image_subscriber/image_display_node.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/lib/python3.10/site-packages/image_subscriber
+[1.746s] copying /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/build/lib/image_subscriber/__init__.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/lib/python3.10/site-packages/image_subscriber
+[1.746s] copying /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/build/lib/image_subscriber/image_pose_display_node.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/lib/python3.10/site-packages/image_subscriber
+[1.746s] copying /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/build/lib/image_subscriber/image_poseoptical_display_node.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/lib/python3.10/site-packages/image_subscriber
+[1.748s] byte-compiling /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/lib/python3.10/site-packages/image_subscriber/image_display_node.py to image_display_node.cpython-310.pyc
+[1.749s] byte-compiling /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/lib/python3.10/site-packages/image_subscriber/__init__.py to __init__.cpython-310.pyc
+[1.749s] byte-compiling /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/lib/python3.10/site-packages/image_subscriber/image_pose_display_node.py to image_pose_display_node.cpython-310.pyc
+[1.752s] byte-compiling /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/lib/python3.10/site-packages/image_subscriber/image_poseoptical_display_node.py to image_poseoptical_display_node.cpython-310.pyc
+[1.752s] running install_data
+[1.752s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/share/ament_index
+[1.755s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/share/ament_index/resource_index
+[1.755s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/share/ament_index/resource_index/packages
+[1.755s] copying resource/image_subscriber -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/share/ament_index/resource_index/packages
+[1.755s] copying package.xml -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/share/image_subscriber
+[1.755s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/share/image_subscriber/launch
+[1.755s] copying launch/image_launch.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/share/image_subscriber/launch
+[1.755s] copying launch/image_launch.xml -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/share/image_subscriber/launch
+[1.757s] running install_egg_info
+[1.758s] Copying ../build/image_subscriber/image_subscriber.egg-info to /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/lib/python3.10/site-packages/image_subscriber-0.0.0-py3.10.egg-info
+[1.758s] running install_scripts
+[1.788s] Installing image_display script to /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/lib/image_subscriber
+[1.789s] Installing pose_display script to /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/lib/image_subscriber
+[1.789s] writing list of installed files to '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/install.log'
+[1.836s] Invoked command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber' returned '0': PYTHONPATH=/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/image_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/image_subscriber build --build-base /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/build install --record /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/image_subscriber/install.log --install-scripts $base/lib/image_subscriber --single-version-externally-managed install_data

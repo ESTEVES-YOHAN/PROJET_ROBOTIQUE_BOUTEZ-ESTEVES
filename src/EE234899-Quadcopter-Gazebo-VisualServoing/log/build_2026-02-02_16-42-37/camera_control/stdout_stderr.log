@@ -1,0 +1,41 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+creating ../build/camera_control/camera_control.egg-info
+writing ../build/camera_control/camera_control.egg-info/PKG-INFO
+writing dependency_links to ../build/camera_control/camera_control.egg-info/dependency_links.txt
+writing entry points to ../build/camera_control/camera_control.egg-info/entry_points.txt
+writing requirements to ../build/camera_control/camera_control.egg-info/requires.txt
+writing top-level names to ../build/camera_control/camera_control.egg-info/top_level.txt
+writing manifest file '../build/camera_control/camera_control.egg-info/SOURCES.txt'
+reading manifest file '../build/camera_control/camera_control.egg-info/SOURCES.txt'
+writing manifest file '../build/camera_control/camera_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/camera_control/build
+creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/camera_control/build/lib
+creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/camera_control/build/lib/camera_control
+copying camera_control/__init__.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/camera_control/build/lib/camera_control
+copying camera_control/ibvs_control_PID.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/camera_control/build/lib/camera_control
+copying camera_control/ibvs_control_SMC.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/camera_control/build/lib/camera_control
+running install
+running install_lib
+creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/lib/python3.10/site-packages/camera_control
+copying /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/camera_control/build/lib/camera_control/__init__.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/lib/python3.10/site-packages/camera_control
+copying /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/camera_control/build/lib/camera_control/ibvs_control_PID.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/lib/python3.10/site-packages/camera_control
+copying /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/camera_control/build/lib/camera_control/ibvs_control_SMC.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/lib/python3.10/site-packages/camera_control
+byte-compiling /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/lib/python3.10/site-packages/camera_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/lib/python3.10/site-packages/camera_control/ibvs_control_PID.py to ibvs_control_PID.cpython-310.pyc
+byte-compiling /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/lib/python3.10/site-packages/camera_control/ibvs_control_SMC.py to ibvs_control_SMC.cpython-310.pyc
+running install_data
+creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/share/ament_index
+creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/share/ament_index/resource_index
+creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/share/ament_index/resource_index/packages
+copying resource/camera_control -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/share/camera_control
+running install_egg_info
+Copying ../build/camera_control/camera_control.egg-info to /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ibvs_pid script to /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/lib/camera_control
+Installing ibvs_smc script to /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/camera_control/lib/camera_control
+writing list of installed files to '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/camera_control/install.log'

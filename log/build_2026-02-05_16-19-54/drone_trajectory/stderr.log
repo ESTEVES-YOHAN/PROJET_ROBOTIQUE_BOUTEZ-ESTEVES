@@ -1,0 +1,5 @@
+  File "/home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/python3.10/site-packages/drone_trajectory/waypoint_follow2.py", line 138
+    if self.hauteur = 10:
+       ^^^^^^^^^^^^
+SyntaxError: cannot assign to attribute here. Maybe you meant '==' instead of '='?
+

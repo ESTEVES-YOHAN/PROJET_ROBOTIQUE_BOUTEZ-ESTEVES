@@ -1,0 +1,4 @@
+[console_scripts]
+image_display = image_subscriber.image_display_node:main
+pose_display = image_subscriber.image_pose_display_node:main
+

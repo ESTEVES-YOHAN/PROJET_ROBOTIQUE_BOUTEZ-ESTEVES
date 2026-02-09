@@ -1,0 +1,3 @@
+source;share/drone_trajectory/hook/pythonpath.ps1
+source;share/drone_trajectory/hook/pythonpath.dsv
+source;share/drone_trajectory/hook/pythonpath.sh

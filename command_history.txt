@@ -1,0 +1,408 @@
+
+  296  gedit
+  297  sudo apt install gedit
+  298  gedit ~/.bashrc
+  299  ros2 run demo_nodes_cpp talker
+  300  ros2 node list
+  301  ros2 node ping Donatello
+  302  ros2 run my_py_pkg py_node --ros-args --remap __node:=op_node
+  303  ros2 run turtlesim turtle_teleop_key
+  304  ros2 run my_py_pkg robot_station listener
+  305  ros2 topic echo /robot_news_station 
+  306  ros2 topic echo /robot_news
+  307  ros2 run my_py_pkg smartphone 
+  308  ros2 run my_py_pkg py_node --ros-args --remap __node:=py_test
+  309  ros2 run turtlesim turtlesim_node name:=my_turtle
+  310  ros2 run my_py_pkg py_node --ros-args --remap __node:=no_op_node
+  311  ros2 node list
+  312  rqt
+  313  rqt_graph
+  314  ros2 topic list
+  315  rqt graph
+  316  ros2 run my_py_pkg number_counter
+  317  ros2 run my_py_pkg number_counter 
+  318  colcon build
+  319  ros2 run my_py_pkg number_counter 
+  320  colcon build
+  321  ros2 run my_py_pkg number_counter 
+  322  colcon build
+  323  ros2 run my_py_pkg number_counter 
+  324  colcon build
+  325  ros2 run my_py_pkg number_counter 
+  326  colcon build
+  327  ros2 run my_py_pkg number_counter 
+  328  colcon build
+  329  ros2 run my_py_pkg number_counter 
+  330  colcon build
+  331  ros2 run my_py_pkg number_counter 
+  332  ros2 run my_py_pkg client_node 
+  333  ros2 run my_py_pkg client_node 2 3
+  334  colcon build
+  335  ros2 run my_py_pkg client2_node
+  336  ros2 run my_py_pkg client2_node 
+  337  colcon build
+  338  ros2 run my_py_pkg client2_node 
+  339  colcon build
+  340  ros2 run my_py_pkg client2_node 
+  341  colcon build
+  342  ros2 run my_py_pkg client2_node 
+  343  colcon build
+  344  ros2 run my_py_pkg client2_node 
+  345  colcon build
+  346  ros2 run my_py_pkg client2_node 
+  347  colcon build
+  348  ros2 run my_py_pkg client2_node 
+  349  colcon build
+  350  ros2 run my_py_pkg client2_node 
+  351  colcon build
+  352  ros2 run my_py_pkg client2_node 
+  353  colcon build
+  354  ros2 run my_py_pkg client2_node 
+  355  colcon build
+  356  ros2 run my_py_pkg client2_node 
+  357  colcon build
+  358  ros2 run my_py_pkg client2_node 
+  359  ros2 interface show example_interfaces/
+  360  ros2 interface show example_interfaces/srv/SetBool
+  361  ros2 run my_py_pkg number_counter 
+  362  colcon build
+  363  ros2 run my_py_pkg number_counter 
+  364  ros2 topic echo /number
+  365  ros2 topic echo /number_count 
+  366  ros2 show interface
+  367  ros2 interface show example_interfaces/msg/String 
+  368  ros2 interface show example_interfaces/msg/Int64
+  369  cd ros2_ws/
+  370  colcon
+  371  colcon build
+  372  ros2 run my_py_pkg number_publisher 
+  373  colcon build
+  374  ros2 run my_py_pkg number_publisher 
+  375  colcon build
+  376  ros2 run my_py_pkg number_publisher 
+  377  colcon build
+  378  ros2 run my_py_pkg number_publisher 
+  379  colcon build
+  380  ros2 run my_py_pkg number_publisher 
+  381  ros2colcon build
+  382  colcon build
+  383  ros2 run my_py_pkg number_publisher 
+  384  ros2 run my_py_pkg service_node 
+  385  ros2 run my_py_pkg number_publisher 
+  386  rqt_graph
+  387  colcon build
+  388  ros2 service list
+  389  colcon build
+  390  ros2 service list
+  391  colcon build
+  392  ros2 service list
+  393  ros2 service call /reset_counter example_interfaces/srv/SetBool "{data: 'True'}"
+  394  ros2 topic list
+  395  ros2 topic pub /hardware_status 
+  396  ros2 topic pub /hardware_status HardwareStatus
+  397  ros2 topic echo /hardware_status 
+  398  source install/setup.bash
+  399  cd ros2_ws/
+  400  source install/setup.bash
+  401  ros2 topic echo /hardware_status 
+  402  ros2 topic list
+  403  ros2 topic echo /number 
+  404  cd ros2_ws/src
+  405  ros2 pkg create my_robot_interfaces
+  406  ls
+  407  cd my_robot_interfaces/
+  408  rm -rf include/ src/
+  409  mkdir msg
+  410  cd msg/
+  411  touch HardwareStatus.msg
+  412  cd ..
+  413  colcon build
+  414  ros2 run my_py_pkg hw_status_publisher 
+  415  source install/setup.bash
+  416  ros2 run my_py_pkg hw_status_publisher 
+  417  colcon build
+  418  ros2 run my_py_pkg hw_status_publisher 
+  419  ls
+  420  cd ..
+  421  ls
+  422  cd ros2_ws/src/
+  423  mkdir srv
+  424  cd srv/
+  425  touch ComputeRectangleArea.srv
+  426  cd ../..
+  427  colcon build
+  428  source install/setup.bash 
+  429  colcon build
+  430  source install/setup.bash 
+  431  colcon build
+  432  source install/setup.bash 
+  433  colcon build
+  434  colcon build --packages-select my_py_pkg --symlink_install
+  435  colcon build --packages-select my_py_pkg --symlink-install
+  436  source install/setup.bash 
+  437  os2 run my_py_pkg number_publisher --ros-args -p Number_pub:=44
+  438  cd src/
+  439  ros2 pkg create my_robot_bringup
+  440  cd my_robot_bringup/
+  441  ls
+  442  rm -rf include/
+  443  rm -rf src/
+  444  mkdir launch
+  445  cd launch/
+  446  touch number_app.launch/py
+  447  touch number_app.launch.py
+  448  chmod +x number_app.launch.py 
+  449  ros2 run my_py_pkg number_publisher --ros-args -p Number_pub:=44
+  450  ros2 run my_py_pkg number_publisher
+  451  ros2 run turtlesim turtle_teleop_key 
+  452  ros2 run turtlesim turtlesim_node 
+  453  ros2 action list -t
+  454  ros2 interface show turtlesim/action/RotateAbsolute 
+  455  ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta:1.57}"
+  456  ros2 run turtlesim 
+  457  ros2 run turtlesim turtlesim_node _n
+  458  ros2 source install/setup.bash 
+  459  source install/setup.bash 
+  460  colcon build
+  461  source install/setup.bash 
+  462  ros2 run my_turtle_pkg turtle_spawner 
+  463  colcon build
+  464  ros2 run my_turtle_pkg turtle_spawner 
+  465  ros2 service call /reset 
+  466  ros2 service info /reset
+  467  ros2 service call /reset std_srvs/srv/Empty
+  468  colcon build
+  469  ros2 run my_turtle_pkg turtle_spawner 
+  470  colcon build
+  471  ros2 run my_turtle_pkg turtle_spawner 
+  472  ros2 service info /reset
+  473  ros2 service call /reset std_srvs/srv/Empty
+  474  colcon build
+  475  ros2 run my_turtle_pkg turtle_controller2
+  476  source install/setup.bash 
+  477  ros2 run my_turtle_pkg turtle_controller2
+  478  colcon build
+  479  colcon build --packages-select my_turtle_interfaces
+  480  source install/setup.bash
+  481  colcon build
+  482  ros2 run my_turtle_pkg turtle_controller2
+  483  colcon build
+  484  ros2 run my_turtle_pkg turtle_controller2
+  485  source install/setup.bash 
+  486  colcon build
+  487  source install/setup.bash 
+  488  ros2 run my_turtle_pkg turtle_controller2
+  489  colcon build
+  490  source install/setup.bash 
+  491  ros2 run my_turtle_pkg turtle_controller2
+  492  ros2 service call /reset std_srvs/srv/Empty
+  493  colcon build
+  494  ros2 run my_turtle_pkg turtle_controller2
+  495  colcon build
+  496  ros2 run my_turtle_pkg turtle_controller2
+  497  colcon build
+  498  ros2 run my_turtle_pkg turtle_controller2
+  499  colcon build
+  500  ros2 run my_turtle_pkg turtle_controller2
+  501  colcon build
+  502  ros2 run my_turtle_pkg turtle_controller2
+  503  colcon build
+  504  ros2 run my_turtle_pkg turtle_controller2
+  505  colcon build
+  506  ros2 run my_turtle_pkg turtle_controller2
+  507  colcon build
+  508  ros2 run my_turtle_pkg turtle_controller2
+  509  colcon build
+  510  ros2 run my_turtle_pkg turtle_controller2
+  511  colcon build
+  512  ros2 run my_turtle_pkg turtle_controller2
+  513  colcon build
+  514  ros2 run my_turtle_pkg turtle_controller2
+  515  colcon build
+  516  ros2 run my_turtle_pkg turtle_controller2
+  517  colcon build
+  518  ros2 run my_turtle_pkg turtle_controller2
+  519  colcon build
+  520  ros2 run my_turtle_pkg turtle_controller2
+  521  ros2 service list
+  522  source install/setup.bash 
+  523  colcon build
+  524  source install/setup.bash 
+  525  ros2 run my_turtle_pkg catch_turtle_service 
+  526  colcon build
+  527  ros2 run my_turtle_pkg catch_turtle_service 
+  528  colcon build
+  529  ros2 run my_turtle_pkg catch_turtle_service 
+  530  colcon build
+  531  ros2 run my_turtle_pkg catch_turtle_service 
+  532  colcon build
+  533  ros2 run my_turtle_pkg catch_turtle_service 
+  534  colcon build
+  535  ros2 run my_turtle_pkg catch_turtle_service 
+  536  colcon build
+  537  ros2 run my_turtle_pkg catch_turtle_service 
+  538  colcon build
+  539  source install/setup.bash 
+  540  ros2 launch my_turtle_pkg turtle_launcher
+  541  colcon build
+  542  source install/setup.bash 
+  543  ros2 run my_turtle_pkg turtle_controller2
+  544  colcon build
+  545  ros2 run my_turtle_pkg turtle_controller2
+  546  colcon build
+  547  ros2 run my_turtle_pkg turtle_controller2
+  548  colcon build
+  549  ros2 run my_turtle_pkg turtle_controller2
+  550  colcon build
+  551  ros2 run my_turtle_pkg turtle_controller2
+  552  colcon build
+  553  ros2 run my_turtle_pkg turtle_controller2
+  554  colcon build
+  555  ros2 run my_turtle_pkg turtle_controller2
+  556  colcon build
+  557  ros2 run my_turtle_pkg turtle_controller3
+  558  colcon build
+  559  ros2 run my_turtle_pkg turtle_controller3
+  560  colcon build
+  561  ros2 run my_turtle_pkg turtle_controller3
+  562  chmod +x turtle_launcher.py 
+  563  colcon build
+  564  source install/setup.bash 
+  565  ros2 run my_turtle_pkg turtle_spawner 
+  566  colcon build
+  567  source install/setup.bash 
+  568  colcon build
+  569  ros2 run my_turtle_pkg turtle_spawner 
+  570  colcon build
+  571  ros2 run my_turtle_pkg turtle_spawner 
+  572  colcon build
+  573  ros2 run my_turtle_pkg turtle_spawner 
+  574  colcon build
+  575  ros2 run my_turtle_pkg turtle_spawner 
+  576  colcon build
+  577  ros2 run my_turtle_pkg turtle_spawner 
+  578  colcon build
+  579  ros2 run my_turtle_pkg turtle_spawner 
+  580  colcon build
+  581  ros2 run my_turtle_pkg turtle_spawner 
+  582  colcon build
+  583  ros2 run my_turtle_pkg turtle_spawner 
+  584  ros2 service call /reset std_srvs/srv/Empty
+  585  ros2 topic echo /alive_turtles --once
+  586  ros2 service call /reset std_srvs/srv/Empty
+  587  ros2 topic echo /alive_turtles --once
+  588  ros2 service call /reset std_srvs/srv/Empty
+  589  ros2 topic echo /alive_turtles --once
+  590  ros2 service call /reset std_srvs/srv/Empty
+  591  ls
+  592  mkdir TurtleSim_ROS2
+  593  cd  TurtleSim_ROS2/
+  594  colcon build
+  595  ls
+  596  mkdir src
+  597  cd src/
+  598  ros2 pkg create my_turtle_interfaces
+  599  ls
+  600  cd my_turtle_interfaces/
+  601  ls
+  602  rm -rf include/ src/
+  603  mkdir msg
+  604  cd msg
+  605  touche Turtle.msg
+  606  touch Turtle.msg
+  607  touch TurtleArray.msg
+  608  cd ..
+  609  mkdir my_turtle_pkg
+  610  cd my_turtle_pkg/
+  611  colcon build
+  612  ls
+  613  cd ..
+  614  rm my_turtle_pkg
+  615  ros2 pkg create my_turtle_pkg --build-type amment_python --dependencies rclpy
+  616  ls
+  617  ros2 pkg create my_turtle_pkg --build-type ament_python --dependencies rclpy
+  618  cd my_turtle_pkg/
+  619  touch turtle_controller.py
+  620  chmod +x turtle_controller.py 
+  621  ros2 topic list
+  622  ros2 topic info
+  623  ros2 topic info /turtle1/pose 
+  624  ls
+  625  cd ..
+  626  colcon build
+  627  source install/setup.bash 
+  628  ros2 run my_turtle_pkg turtle_controller 
+  629  colcon build
+  630  source install/setup.bash 
+  631  ros2 run my_turtle_pkg turtle_controller 
+  632  colcon build
+  633  ros2 run my_turtle_pkg turtle_controller 
+  634  colcon build
+  635  ros2 run my_turtle_pkg turtle_controller 
+  636  colcon build
+  637  ros2 run my_turtle_pkg turtle_controller 
+  638  colcon build
+  639  ros2 run my_turtle_pkg turtle_controller 
+  640  colcon build
+  641  ros2 run my_turtle_pkg turtle_controller 
+  642  colcon build
+  643  ros2 run my_turtle_pkg turtle_controller 
+  644  ros2 topic echo /turtle1/pose
+  645  ros2 service list
+  646  ros2 service call /spawn
+  647  ros2 service call /spawn 1 1
+  648  ros2 service call /spawn turtlesim/srv/Spawn "{x: 1.0, y:1.0, theta: 2.0, name: 'turtle2'}"
+  649  ros2 service call /spawn turtlesim/srv/Spawn "{x: 1.0, y: 1.0, theta: 2.0, name: 'turtle2'}"
+  650  ros2 service call /spawn turtlesim/srv/Spawn "{x: 10.0, y: 10.0, theta: 2.0, name: 'turtle3'}"
+  651  colcon buidl
+  652  colcon build
+  653  ros2 run my_turtle_pkg turtle_spawner 
+  654  colcon build
+  655  ros2 run my_turtle_pkg turtle_spawner 
+  656  colcon build
+  657  ros2 run my_turtle_pkg turtle_spawner 
+  658  ros2 run turtlesim turtlesim_node 
+  659  ls
+  660  cd src/
+  661  ls
+  662  cd my_turtle_interfaces/
+  663  mkdir srv
+  664  mkdir catch_turtle
+  665  ls
+  666  cd srv/
+  667  ls
+  668  ros2 run turtlesim turtlesim_node 
+  669  cd..
+  670  cd ..
+  671  ros2 pkg create my_turttle_bringup
+  672  cd my_turttle_bringup/
+  673  ls
+  674  rm -rf include/
+  675  rm -rf src/
+  676  mkdir launch
+  677  cd launch/
+  678  touch turtle_launcher.py
+  679  chmod +x turtle_launcher.py 
+  680  source .bashrc
+  681  cd ..
+  682  source install/setup.bash
+  683  cd ..
+  684  ls
+  685  source install/setup.bash 
+  686  colcon build
+  687  source install/setup.bash 
+  688  colcon build
+  689  source install/setup.bash 
+  690  colcon build --packages-select my_turtle_pkg
+  691  source install/setup.bash
+  692  ros2 launch my_turttle_bringup turtle_launcher.py
+  693  [(-3.44, -6.05), (-9.35, 5.93)]
+  694  [[-3.44, -6.05], [-9.35, 5.93]]
+  695  pip install tf
+  696  colcon build
+  697  source install/setup.bash
+  698  ros2 topic echo /sonar 
+  699  ros2 topic list
+  700  ros2 topic echo /drone/sonar 
+  701  history
+  702  history > command_history.txt

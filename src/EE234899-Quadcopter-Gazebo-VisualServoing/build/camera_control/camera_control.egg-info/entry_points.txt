@@ -1,0 +1,4 @@
+[console_scripts]
+ibvs_pid = camera_control.ibvs_control_PID:main
+ibvs_smc = camera_control.ibvs_control_SMC:main
+

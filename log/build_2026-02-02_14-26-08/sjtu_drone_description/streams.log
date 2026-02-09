@@ -1,0 +1,5 @@
+[0.618s] Invoking command in '/home/seatech/Projet_Quadcopter/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/seatech/Projet_Quadcopter/build/sjtu_drone_description -- -j4 -l4
+[0.637s] [0mCMake Error: The source directory "/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description" does not exist.
+[0.637s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.638s] gmake: *** [Makefile:294 : cmake_check_build_system] Erreur 1
+[0.640s] Invoked command in '/home/seatech/Projet_Quadcopter/build/sjtu_drone_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/seatech/Projet_Quadcopter/build/sjtu_drone_description -- -j4 -l4

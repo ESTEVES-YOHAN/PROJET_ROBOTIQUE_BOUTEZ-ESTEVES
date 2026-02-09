@@ -1,0 +1,524 @@
+[0.000000] (-) TimerEvent: {}
+[0.000825] (camera_control) JobQueued: {'identifier': 'camera_control', 'dependencies': OrderedDict()}
+[0.000867] (image_subscriber) JobQueued: {'identifier': 'image_subscriber', 'dependencies': OrderedDict()}
+[0.000884] (sjtu_drone_bringup) JobQueued: {'identifier': 'sjtu_drone_bringup', 'dependencies': OrderedDict()}
+[0.000899] (sjtu_drone_description) JobQueued: {'identifier': 'sjtu_drone_description', 'dependencies': OrderedDict()}
+[0.001484] (camera_control) JobStarted: {'identifier': 'camera_control'}
+[0.010030] (image_subscriber) JobStarted: {'identifier': 'image_subscriber'}
+[0.017107] (sjtu_drone_bringup) JobStarted: {'identifier': 'sjtu_drone_bringup'}
+[0.021718] (sjtu_drone_description) JobStarted: {'identifier': 'sjtu_drone_description'}
+[0.099925] (-) TimerEvent: {}
+[0.201202] (-) TimerEvent: {}
+[0.301584] (-) TimerEvent: {}
+[0.402116] (-) TimerEvent: {}
+[0.502603] (-) TimerEvent: {}
+[0.603288] (-) TimerEvent: {}
+[0.704249] (-) TimerEvent: {}
+[0.719657] (sjtu_drone_description) JobProgress: {'identifier': 'sjtu_drone_description', 'progress': 'cmake'}
+[0.720178] (sjtu_drone_description) JobProgress: {'identifier': 'sjtu_drone_description', 'progress': 'build'}
+[0.720850] (sjtu_drone_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/seatech/Projet_Quadcopter/build/sjtu_drone_description', '--', '-j4', '-l4'], 'cwd': '/home/seatech/Projet_Quadcopter/build/sjtu_drone_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'fr_FR'), ('USER', 'seatech'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/seatech/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seatech'), ('OLDPWD', '/home/seatech/Projet_Quadcopter/src'), ('DESKTOP_SESSION', 'xubuntu'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/seatech/Projet_Quadcopter/install:/home/seatech/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seatech'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Seatech-VirtualBox:@/tmp/.ICE-unix/1106,unix/Seatech-VirtualBox:/tmp/.ICE-unix/1106'), ('GDM_LANG', 'fr_FR'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/seatech/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/seatech'), ('AMENT_PREFIX_PATH', '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup:/home/seatech/Projet_Quadcopter/install/image_subscriber:/home/seatech/Projet_Quadcopter/install/camera_control:/home/seatech/ros2_ws/install/my_robot_interfaces:/home/seatech/ros2_ws/install/my_robot_bringup:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:29ef0efb-05a9-44f1-bbc6-09c58ff8e9e8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/seatech/Projet_Quadcopter/build/sjtu_drone_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages:/home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages:/home/seatech/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/seatech/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description:/home/seatech/ros2_ws/install/my_robot_interfaces:/home/seatech/ros2_ws/install/my_robot_bringup:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup:/home/seatech/Projet_Quadcopter/install/image_subscriber:/home/seatech/Projet_Quadcopter/install/camera_control:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.750115] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.804949] (-) TimerEvent: {}
+[0.872895] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.875005] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.905049] (-) TimerEvent: {}
+[0.922958] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.923796] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.929308] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.943479] (sjtu_drone_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.961127] (sjtu_drone_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.002241] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.004846] (sjtu_drone_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.005273] (-) TimerEvent: {}
+[1.063610] (sjtu_drone_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/sjtu_drone_bringup', 'build', '--build-base', '/home/seatech/Projet_Quadcopter/build/sjtu_drone_bringup/build', 'install', '--record', '/home/seatech/Projet_Quadcopter/build/sjtu_drone_bringup/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'fr_FR', 'USER': 'seatech', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/seatech/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/seatech', 'OLDPWD': '/home/seatech/Projet_Quadcopter/src', 'DESKTOP_SESSION': 'xubuntu', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/seatech/Projet_Quadcopter/install:/home/seatech/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'seatech', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Seatech-VirtualBox:@/tmp/.ICE-unix/1106,unix/Seatech-VirtualBox:/tmp/.ICE-unix/1106', 'GDM_LANG': 'fr_FR', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/seatech/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/seatech', 'AMENT_PREFIX_PATH': '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup:/home/seatech/Projet_Quadcopter/install/image_subscriber:/home/seatech/Projet_Quadcopter/install/camera_control:/home/seatech/ros2_ws/install/my_robot_interfaces:/home/seatech/ros2_ws/install/my_robot_bringup:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:29ef0efb-05a9-44f1-bbc6-09c58ff8e9e8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '7', 'PWD': '/home/seatech/Projet_Quadcopter/build/sjtu_drone_bringup', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/seatech/Projet_Quadcopter/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages:/home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages:/home/seatech/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/seatech/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description:/home/seatech/ros2_ws/install/my_robot_interfaces:/home/seatech/ros2_ws/install/my_robot_bringup'}, 'shell': False}
+[1.073353] (image_subscriber) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/image_subscriber', 'build', '--build-base', '/home/seatech/Projet_Quadcopter/build/image_subscriber/build', 'install', '--record', '/home/seatech/Projet_Quadcopter/build/image_subscriber/install.log', '--install-scripts', '$base/lib/image_subscriber', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'fr_FR', 'USER': 'seatech', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/seatech/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/seatech', 'OLDPWD': '/home/seatech/Projet_Quadcopter/src', 'DESKTOP_SESSION': 'xubuntu', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/seatech/Projet_Quadcopter/install:/home/seatech/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'seatech', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Seatech-VirtualBox:@/tmp/.ICE-unix/1106,unix/Seatech-VirtualBox:/tmp/.ICE-unix/1106', 'GDM_LANG': 'fr_FR', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/seatech/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/seatech', 'AMENT_PREFIX_PATH': '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup:/home/seatech/Projet_Quadcopter/install/image_subscriber:/home/seatech/Projet_Quadcopter/install/camera_control:/home/seatech/ros2_ws/install/my_robot_interfaces:/home/seatech/ros2_ws/install/my_robot_bringup:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:29ef0efb-05a9-44f1-bbc6-09c58ff8e9e8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '7', 'PWD': '/home/seatech/Projet_Quadcopter/build/image_subscriber', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/seatech/Projet_Quadcopter/build/image_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages:/home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages:/home/seatech/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/seatech/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description:/home/seatech/ros2_ws/install/my_robot_interfaces:/home/seatech/ros2_ws/install/my_robot_bringup'}, 'shell': False}
+[1.096329] (camera_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../build/camera_control', 'build', '--build-base', '/home/seatech/Projet_Quadcopter/build/camera_control/build', 'install', '--record', '/home/seatech/Projet_Quadcopter/build/camera_control/install.log', '--install-scripts', '$base/lib/camera_control', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'fr_FR', 'USER': 'seatech', 'XDG_SEAT': 'seat0', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/seatech/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/seatech', 'OLDPWD': '/home/seatech/Projet_Quadcopter/src', 'DESKTOP_SESSION': 'xubuntu', 'PANEL_GDK_CORE_DEVICE_EVENTS': '0', 'ROS_PYTHON_VERSION': '3', 'XDG_SEAT_PATH': '/org/freedesktop/DisplayManager/Seat0', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'QT_QPA_PLATFORMTHEME': 'gtk2', 'COLCON_PREFIX_PATH': '/home/seatech/Projet_Quadcopter/install:/home/seatech/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'seatech', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'CLUTTER_BACKEND': 'x11', 'TERM': 'xterm-256color', 'GTK_OVERLAY_SCROLLING': '0', 'XDG_SESSION_ID': 'c1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/Seatech-VirtualBox:@/tmp/.ICE-unix/1106,unix/Seatech-VirtualBox:/tmp/.ICE-unix/1106', 'GDM_LANG': 'fr_FR', 'XDG_SESSION_PATH': '/org/freedesktop/DisplayManager/Session0', 'XDG_MENU_PREFIX': 'xfce-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0.0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'fr_FR.UTF-8', 'XDG_CURRENT_DESKTOP': 'XFCE', 'XDG_SESSION_DESKTOP': 'xubuntu', 'XAUTHORITY': '/home/seatech/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XDG_GREETER_DATA_DIR': '/var/lib/lightdm-data/seatech', 'AMENT_PREFIX_PATH': '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup:/home/seatech/Projet_Quadcopter/install/image_subscriber:/home/seatech/Projet_Quadcopter/install/camera_control:/home/seatech/ros2_ws/install/my_robot_interfaces:/home/seatech/ros2_ws/install/my_robot_bringup:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:29ef0efb-05a9-44f1-bbc6-09c58ff8e9e8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'xubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'XDG_VTNR': '7', 'PWD': '/home/seatech/Projet_Quadcopter/build/camera_control', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share', 'PYTHONPATH': '/home/seatech/Projet_Quadcopter/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages:/home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages:/home/seatech/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/seatech/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description:/home/seatech/ros2_ws/install/my_robot_interfaces:/home/seatech/ros2_ws/install/my_robot_bringup'}, 'shell': False}
+[1.105368] (-) TimerEvent: {}
+[1.138252] (sjtu_drone_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.204250] (sjtu_drone_description) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.205491] (-) TimerEvent: {}
+[1.236574] (sjtu_drone_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.262659] (sjtu_drone_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[1.263418] (sjtu_drone_bringup) StdoutLine: {'line': b'writing ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/PKG-INFO\n'}
+[1.264309] (sjtu_drone_bringup) StdoutLine: {'line': b'writing dependency_links to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/dependency_links.txt\n'}
+[1.264727] (sjtu_drone_bringup) StdoutLine: {'line': b'writing entry points to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/entry_points.txt\n'}
+[1.265071] (sjtu_drone_bringup) StdoutLine: {'line': b'writing requirements to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/requires.txt\n'}
+[1.265398] (sjtu_drone_bringup) StdoutLine: {'line': b'writing top-level names to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/top_level.txt\n'}
+[1.265800] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.269853] (sjtu_drone_bringup) StdoutLine: {'line': b"reading manifest file '../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'\n"}
+[1.270203] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.270537] (sjtu_drone_bringup) StdoutLine: {'line': b"writing manifest file '../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'\n"}
+[1.270885] (sjtu_drone_bringup) StdoutLine: {'line': b'running build\n'}
+[1.274263] (sjtu_drone_bringup) StdoutLine: {'line': b'running build_py\n'}
+[1.274683] (sjtu_drone_bringup) StdoutLine: {'line': b'running install\n'}
+[1.275009] (sjtu_drone_bringup) StdoutLine: {'line': b'running install_lib\n'}
+[1.275330] (sjtu_drone_bringup) StdoutLine: {'line': b'running install_data\n'}
+[1.275643] (sjtu_drone_bringup) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.275981] (sjtu_drone_bringup) StdoutLine: {'line': b"removing '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.276369] (sjtu_drone_bringup) StdoutLine: {'line': b'Copying ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info to /home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup-0.0.0-py3.10.egg-info\n'}
+[1.276688] (sjtu_drone_bringup) StdoutLine: {'line': b'running install_scripts\n'}
+[1.276996] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.277383] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.281159] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.291817] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.292986] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.293587] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.294231] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.294847] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.295439] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.296033] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.296677] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.297342] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.297860] (sjtu_drone_bringup) StdoutLine: {'line': b'Installing spawn_drone script to /home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/lib/sjtu_drone_bringup\n'}
+[1.298359] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.302899] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.303527] (sjtu_drone_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.304209] (sjtu_drone_bringup) StdoutLine: {'line': b"writing list of installed files to '/home/seatech/Projet_Quadcopter/build/sjtu_drone_bringup/install.log'\n"}
+[1.305990] (-) TimerEvent: {}
+[1.314255] (sjtu_drone_bringup) CommandEnded: {'returncode': 0}
+[1.321641] (image_subscriber) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.321766] (image_subscriber) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.328574] (image_subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[1.329282] (image_subscriber) StdoutLine: {'line': b'writing ../../../build/image_subscriber/image_subscriber.egg-info/PKG-INFO\n'}
+[1.329359] (image_subscriber) StdoutLine: {'line': b'writing dependency_links to ../../../build/image_subscriber/image_subscriber.egg-info/dependency_links.txt\n'}
+[1.329583] (image_subscriber) StdoutLine: {'line': b'writing entry points to ../../../build/image_subscriber/image_subscriber.egg-info/entry_points.txt\n'}
+[1.329912] (image_subscriber) StdoutLine: {'line': b'writing requirements to ../../../build/image_subscriber/image_subscriber.egg-info/requires.txt\n'}
+[1.329995] (image_subscriber) StdoutLine: {'line': b'writing top-level names to ../../../build/image_subscriber/image_subscriber.egg-info/top_level.txt\n'}
+[1.330186] (sjtu_drone_bringup) JobEnded: {'identifier': 'sjtu_drone_bringup', 'rc': 0}
+[1.332052] (image_subscriber) StdoutLine: {'line': b"reading manifest file '../../../build/image_subscriber/image_subscriber.egg-info/SOURCES.txt'\n"}
+[1.337105] (image_subscriber) StdoutLine: {'line': b"writing manifest file '../../../build/image_subscriber/image_subscriber.egg-info/SOURCES.txt'\n"}
+[1.337506] (image_subscriber) StdoutLine: {'line': b'running build\n'}
+[1.337595] (image_subscriber) StdoutLine: {'line': b'running build_py\n'}
+[1.337652] (image_subscriber) StdoutLine: {'line': b'copying image_subscriber/image_display_node.py -> /home/seatech/Projet_Quadcopter/build/image_subscriber/build/lib/image_subscriber\n'}
+[1.337853] (image_subscriber) StdoutLine: {'line': b'copying image_subscriber/image_pose_display_node.py -> /home/seatech/Projet_Quadcopter/build/image_subscriber/build/lib/image_subscriber\n'}
+[1.337976] (image_subscriber) StdoutLine: {'line': b'copying image_subscriber/image_poseoptical_display_node.py -> /home/seatech/Projet_Quadcopter/build/image_subscriber/build/lib/image_subscriber\n'}
+[1.338211] (image_subscriber) StdoutLine: {'line': b'running install\n'}
+[1.338471] (image_subscriber) StdoutLine: {'line': b'running install_lib\n'}
+[1.339355] (image_subscriber) StdoutLine: {'line': b'copying /home/seatech/Projet_Quadcopter/build/image_subscriber/build/lib/image_subscriber/image_display_node.py -> /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber\n'}
+[1.339475] (image_subscriber) StdoutLine: {'line': b'copying /home/seatech/Projet_Quadcopter/build/image_subscriber/build/lib/image_subscriber/image_pose_display_node.py -> /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber\n'}
+[1.339593] (image_subscriber) StdoutLine: {'line': b'copying /home/seatech/Projet_Quadcopter/build/image_subscriber/build/lib/image_subscriber/image_poseoptical_display_node.py -> /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber\n'}
+[1.340018] (image_subscriber) StdoutLine: {'line': b'byte-compiling /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber/image_display_node.py to image_display_node.cpython-310.pyc\n'}
+[1.341218] (image_subscriber) StdoutLine: {'line': b'byte-compiling /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber/image_pose_display_node.py to image_pose_display_node.cpython-310.pyc\n'}
+[1.342539] (image_subscriber) StdoutLine: {'line': b'byte-compiling /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber/image_poseoptical_display_node.py to image_poseoptical_display_node.cpython-310.pyc\n'}
+[1.344872] (image_subscriber) StdoutLine: {'line': b'running install_data\n'}
+[1.345023] (image_subscriber) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.349551] (image_subscriber) StdoutLine: {'line': b"removing '/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.349769] (image_subscriber) StdoutLine: {'line': b'Copying ../../../build/image_subscriber/image_subscriber.egg-info to /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber-0.0.0-py3.10.egg-info\n'}
+[1.349827] (image_subscriber) StdoutLine: {'line': b'running install_scripts\n'}
+[1.366033] (image_subscriber) StdoutLine: {'line': b'Installing image_display script to /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/image_subscriber\n'}
+[1.366297] (image_subscriber) StdoutLine: {'line': b'Installing pose_display script to /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/image_subscriber\n'}
+[1.366494] (image_subscriber) StdoutLine: {'line': b"writing list of installed files to '/home/seatech/Projet_Quadcopter/build/image_subscriber/install.log'\n"}
+[1.385094] (camera_control) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[1.385247] (camera_control) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.388731] (image_subscriber) CommandEnded: {'returncode': 0}
+[1.399841] (camera_control) StdoutLine: {'line': b'running egg_info\n'}
+[1.400088] (camera_control) StdoutLine: {'line': b'writing ../../../build/camera_control/camera_control.egg-info/PKG-INFO\n'}
+[1.400147] (camera_control) StdoutLine: {'line': b'writing dependency_links to ../../../build/camera_control/camera_control.egg-info/dependency_links.txt\n'}
+[1.400198] (camera_control) StdoutLine: {'line': b'writing entry points to ../../../build/camera_control/camera_control.egg-info/entry_points.txt\n'}
+[1.400247] (camera_control) StdoutLine: {'line': b'writing requirements to ../../../build/camera_control/camera_control.egg-info/requires.txt\n'}
+[1.400294] (camera_control) StdoutLine: {'line': b'writing top-level names to ../../../build/camera_control/camera_control.egg-info/top_level.txt\n'}
+[1.401968] (image_subscriber) JobEnded: {'identifier': 'image_subscriber', 'rc': 0}
+[1.403132] (camera_control) StdoutLine: {'line': b"reading manifest file '../../../build/camera_control/camera_control.egg-info/SOURCES.txt'\n"}
+[1.403534] (camera_control) StdoutLine: {'line': b"writing manifest file '../../../build/camera_control/camera_control.egg-info/SOURCES.txt'\n"}
+[1.403847] (camera_control) StdoutLine: {'line': b'running build\n'}
+[1.404365] (camera_control) StdoutLine: {'line': b'running build_py\n'}
+[1.404428] (camera_control) StdoutLine: {'line': b'running install\n'}
+[1.404481] (camera_control) StdoutLine: {'line': b'running install_lib\n'}
+[1.405252] (camera_control) StdoutLine: {'line': b'running install_data\n'}
+[1.405626] (camera_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.405991] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.406353] (-) TimerEvent: {}
+[1.407609] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.407683] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.408326] (camera_control) StdoutLine: {'line': b"removing '/home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.408401] (camera_control) StdoutLine: {'line': b'Copying ../../../build/camera_control/camera_control.egg-info to /home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.0-py3.10.egg-info\n'}
+[1.408454] (camera_control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.422641] (sjtu_drone_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.429308] (camera_control) StdoutLine: {'line': b'Installing ibvs_pid script to /home/seatech/Projet_Quadcopter/install/camera_control/lib/camera_control\n'}
+[1.430139] (camera_control) StdoutLine: {'line': b'Installing ibvs_smc script to /home/seatech/Projet_Quadcopter/install/camera_control/lib/camera_control\n'}
+[1.430469] (camera_control) StdoutLine: {'line': b"writing list of installed files to '/home/seatech/Projet_Quadcopter/build/camera_control/install.log'\n"}
+[1.433074] (sjtu_drone_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.437520] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.451428] (sjtu_drone_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.458122] (camera_control) CommandEnded: {'returncode': 0}
+[1.467459] (camera_control) JobEnded: {'identifier': 'camera_control', 'rc': 0}
+[1.485795] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.494901] (sjtu_drone_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.506488] (-) TimerEvent: {}
+[1.515224] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.515832] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.533647] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.537103] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.547099] (sjtu_drone_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.569900] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.570249] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.570599] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.570725] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.570816] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.580677] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.580950] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.581931] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.582072] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.583497] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.584310] (sjtu_drone_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.606552] (-) TimerEvent: {}
+[1.614553] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.622059] (sjtu_drone_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.647673] (sjtu_drone_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.656304] (sjtu_drone_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.678683] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.679318] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.679864] (sjtu_drone_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.682883] (sjtu_drone_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.683990] (sjtu_drone_description) StdoutLine: {'line': b'-- Found gazebo_plugins: 3.9.0 (/opt/ros/humble/share/gazebo_plugins/cmake)\n'}
+[1.706900] (-) TimerEvent: {}
+[1.733426] (sjtu_drone_description) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.759515] (sjtu_drone_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.807394] (-) TimerEvent: {}
+[1.825632] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.828166] (sjtu_drone_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description/include;$<BUILD_INTERFACE:/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description/include>\n'}
+[1.828348] (sjtu_drone_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.828412] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.829730] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.829858] (sjtu_drone_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.830247] (sjtu_drone_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.832955] (sjtu_drone_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.862582] (sjtu_drone_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.869547] (sjtu_drone_description) StdoutLine: {'line': b'-- Build files have been written to: /home/seatech/Projet_Quadcopter/build/sjtu_drone_description\n'}
+[1.897853] (sjtu_drone_description) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target plugin_drone\x1b[0m\n'}
+[1.908810] (-) TimerEvent: {}
+[1.941368] (sjtu_drone_description) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/plugin_drone.cpp.o\x1b[0m\n'}
+[1.943333] (sjtu_drone_description) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/pid_controller.cpp.o\x1b[0m\n'}
+[2.008955] (-) TimerEvent: {}
+[2.109543] (-) TimerEvent: {}
+[2.210143] (-) TimerEvent: {}
+[2.310513] (-) TimerEvent: {}
+[2.410823] (-) TimerEvent: {}
+[2.511143] (-) TimerEvent: {}
+[2.611645] (-) TimerEvent: {}
+[2.712310] (-) TimerEvent: {}
+[2.812595] (-) TimerEvent: {}
+[2.913205] (-) TimerEvent: {}
+[3.013739] (-) TimerEvent: {}
+[3.114058] (-) TimerEvent: {}
+[3.214319] (-) TimerEvent: {}
+[3.316062] (-) TimerEvent: {}
+[3.416465] (-) TimerEvent: {}
+[3.517986] (-) TimerEvent: {}
+[3.618291] (-) TimerEvent: {}
+[3.718867] (-) TimerEvent: {}
+[3.819310] (-) TimerEvent: {}
+[3.919556] (-) TimerEvent: {}
+[4.020822] (-) TimerEvent: {}
+[4.121277] (-) TimerEvent: {}
+[4.221533] (-) TimerEvent: {}
+[4.324085] (-) TimerEvent: {}
+[4.424398] (-) TimerEvent: {}
+[4.525671] (-) TimerEvent: {}
+[4.625935] (-) TimerEvent: {}
+[4.726181] (-) TimerEvent: {}
+[4.828030] (-) TimerEvent: {}
+[4.928316] (-) TimerEvent: {}
+[5.028582] (-) TimerEvent: {}
+[5.129090] (-) TimerEvent: {}
+[5.229922] (-) TimerEvent: {}
+[5.330428] (-) TimerEvent: {}
+[5.430819] (-) TimerEvent: {}
+[5.531116] (-) TimerEvent: {}
+[5.631711] (-) TimerEvent: {}
+[5.731980] (-) TimerEvent: {}
+[5.832301] (-) TimerEvent: {}
+[5.932652] (-) TimerEvent: {}
+[6.032873] (-) TimerEvent: {}
+[6.134591] (-) TimerEvent: {}
+[6.235423] (-) TimerEvent: {}
+[6.335896] (-) TimerEvent: {}
+[6.436600] (-) TimerEvent: {}
+[6.536835] (-) TimerEvent: {}
+[6.637208] (-) TimerEvent: {}
+[6.738031] (-) TimerEvent: {}
+[6.838980] (-) TimerEvent: {}
+[6.939430] (-) TimerEvent: {}
+[7.039983] (-) TimerEvent: {}
+[7.140234] (-) TimerEvent: {}
+[7.259157] (-) TimerEvent: {}
+[7.362942] (-) TimerEvent: {}
+[7.463265] (-) TimerEvent: {}
+[7.564369] (-) TimerEvent: {}
+[7.667387] (-) TimerEvent: {}
+[7.767978] (-) TimerEvent: {}
+[7.868273] (-) TimerEvent: {}
+[7.968615] (-) TimerEvent: {}
+[8.074583] (-) TimerEvent: {}
+[8.176014] (-) TimerEvent: {}
+[8.276545] (-) TimerEvent: {}
+[8.378940] (-) TimerEvent: {}
+[8.482489] (-) TimerEvent: {}
+[8.583059] (-) TimerEvent: {}
+[8.688525] (-) TimerEvent: {}
+[8.789348] (-) TimerEvent: {}
+[8.890514] (-) TimerEvent: {}
+[8.995951] (-) TimerEvent: {}
+[9.097919] (-) TimerEvent: {}
+[9.199180] (-) TimerEvent: {}
+[9.299465] (-) TimerEvent: {}
+[9.399717] (-) TimerEvent: {}
+[9.503555] (-) TimerEvent: {}
+[9.604604] (-) TimerEvent: {}
+[9.709203] (-) TimerEvent: {}
+[9.815557] (-) TimerEvent: {}
+[9.916941] (-) TimerEvent: {}
+[10.017473] (-) TimerEvent: {}
+[10.117847] (-) TimerEvent: {}
+[10.219375] (-) TimerEvent: {}
+[10.321012] (-) TimerEvent: {}
+[10.421840] (-) TimerEvent: {}
+[10.522376] (-) TimerEvent: {}
+[10.623047] (-) TimerEvent: {}
+[10.724007] (-) TimerEvent: {}
+[10.824765] (-) TimerEvent: {}
+[10.925157] (-) TimerEvent: {}
+[11.026759] (-) TimerEvent: {}
+[11.127050] (-) TimerEvent: {}
+[11.227990] (-) TimerEvent: {}
+[11.328359] (-) TimerEvent: {}
+[11.428577] (-) TimerEvent: {}
+[11.528985] (-) TimerEvent: {}
+[11.629865] (-) TimerEvent: {}
+[11.730806] (-) TimerEvent: {}
+[11.831646] (-) TimerEvent: {}
+[11.932662] (-) TimerEvent: {}
+[12.033225] (-) TimerEvent: {}
+[12.133772] (-) TimerEvent: {}
+[12.234302] (-) TimerEvent: {}
+[12.334663] (-) TimerEvent: {}
+[12.435012] (-) TimerEvent: {}
+[12.535391] (-) TimerEvent: {}
+[12.635612] (-) TimerEvent: {}
+[12.735912] (-) TimerEvent: {}
+[12.836294] (-) TimerEvent: {}
+[12.936540] (-) TimerEvent: {}
+[13.037027] (-) TimerEvent: {}
+[13.137782] (-) TimerEvent: {}
+[13.238056] (-) TimerEvent: {}
+[13.338432] (-) TimerEvent: {}
+[13.438785] (-) TimerEvent: {}
+[13.539200] (-) TimerEvent: {}
+[13.639634] (-) TimerEvent: {}
+[13.739863] (-) TimerEvent: {}
+[13.842345] (-) TimerEvent: {}
+[13.942653] (-) TimerEvent: {}
+[14.043269] (-) TimerEvent: {}
+[14.143928] (-) TimerEvent: {}
+[14.244310] (-) TimerEvent: {}
+[14.345398] (-) TimerEvent: {}
+[14.446336] (-) TimerEvent: {}
+[14.546741] (-) TimerEvent: {}
+[14.647301] (-) TimerEvent: {}
+[14.748368] (-) TimerEvent: {}
+[14.848975] (-) TimerEvent: {}
+[14.949509] (-) TimerEvent: {}
+[15.050061] (-) TimerEvent: {}
+[15.150262] (-) TimerEvent: {}
+[15.250696] (-) TimerEvent: {}
+[15.353841] (-) TimerEvent: {}
+[15.455433] (-) TimerEvent: {}
+[15.555631] (-) TimerEvent: {}
+[15.655870] (-) TimerEvent: {}
+[15.756292] (-) TimerEvent: {}
+[15.856655] (-) TimerEvent: {}
+[15.956862] (-) TimerEvent: {}
+[16.057244] (-) TimerEvent: {}
+[16.158281] (-) TimerEvent: {}
+[16.258530] (-) TimerEvent: {}
+[16.359331] (-) TimerEvent: {}
+[16.459786] (-) TimerEvent: {}
+[16.560602] (-) TimerEvent: {}
+[16.661583] (-) TimerEvent: {}
+[16.762284] (-) TimerEvent: {}
+[16.862705] (-) TimerEvent: {}
+[16.963204] (-) TimerEvent: {}
+[17.063601] (-) TimerEvent: {}
+[17.163801] (-) TimerEvent: {}
+[17.264141] (-) TimerEvent: {}
+[17.365282] (-) TimerEvent: {}
+[17.465647] (-) TimerEvent: {}
+[17.565843] (-) TimerEvent: {}
+[17.666249] (-) TimerEvent: {}
+[17.767036] (-) TimerEvent: {}
+[17.867241] (-) TimerEvent: {}
+[17.968365] (-) TimerEvent: {}
+[18.068746] (-) TimerEvent: {}
+[18.169617] (-) TimerEvent: {}
+[18.270231] (-) TimerEvent: {}
+[18.371330] (-) TimerEvent: {}
+[18.471544] (-) TimerEvent: {}
+[18.571745] (-) TimerEvent: {}
+[18.672483] (-) TimerEvent: {}
+[18.772918] (-) TimerEvent: {}
+[18.873187] (-) TimerEvent: {}
+[18.973430] (-) TimerEvent: {}
+[19.074280] (-) TimerEvent: {}
+[19.174619] (-) TimerEvent: {}
+[19.274844] (-) TimerEvent: {}
+[19.375310] (-) TimerEvent: {}
+[19.475972] (-) TimerEvent: {}
+[19.576183] (-) TimerEvent: {}
+[19.676436] (-) TimerEvent: {}
+[19.776817] (-) TimerEvent: {}
+[19.877251] (-) TimerEvent: {}
+[19.978179] (-) TimerEvent: {}
+[20.079140] (-) TimerEvent: {}
+[20.179512] (-) TimerEvent: {}
+[20.280059] (-) TimerEvent: {}
+[20.380498] (-) TimerEvent: {}
+[20.481133] (-) TimerEvent: {}
+[20.581432] (-) TimerEvent: {}
+[20.682156] (-) TimerEvent: {}
+[20.782488] (-) TimerEvent: {}
+[20.883179] (-) TimerEvent: {}
+[20.984173] (-) TimerEvent: {}
+[21.084363] (-) TimerEvent: {}
+[21.184616] (-) TimerEvent: {}
+[21.285131] (-) TimerEvent: {}
+[21.385347] (-) TimerEvent: {}
+[21.485780] (-) TimerEvent: {}
+[21.587279] (-) TimerEvent: {}
+[21.687918] (-) TimerEvent: {}
+[21.788168] (-) TimerEvent: {}
+[21.889310] (-) TimerEvent: {}
+[21.990168] (-) TimerEvent: {}
+[22.090760] (-) TimerEvent: {}
+[22.191102] (-) TimerEvent: {}
+[22.291596] (-) TimerEvent: {}
+[22.392356] (-) TimerEvent: {}
+[22.493118] (-) TimerEvent: {}
+[22.593492] (-) TimerEvent: {}
+[22.693825] (-) TimerEvent: {}
+[22.794115] (-) TimerEvent: {}
+[22.895013] (-) TimerEvent: {}
+[22.995236] (-) TimerEvent: {}
+[23.096118] (-) TimerEvent: {}
+[23.197223] (-) TimerEvent: {}
+[23.297928] (-) TimerEvent: {}
+[23.398151] (-) TimerEvent: {}
+[23.498581] (-) TimerEvent: {}
+[23.598875] (-) TimerEvent: {}
+[23.699328] (-) TimerEvent: {}
+[23.800288] (-) TimerEvent: {}
+[23.900591] (-) TimerEvent: {}
+[24.001141] (-) TimerEvent: {}
+[24.101370] (-) TimerEvent: {}
+[24.201629] (-) TimerEvent: {}
+[24.302223] (-) TimerEvent: {}
+[24.402900] (-) TimerEvent: {}
+[24.503496] (-) TimerEvent: {}
+[24.603827] (-) TimerEvent: {}
+[24.704042] (-) TimerEvent: {}
+[24.804686] (-) TimerEvent: {}
+[24.904929] (-) TimerEvent: {}
+[25.005409] (-) TimerEvent: {}
+[25.106048] (-) TimerEvent: {}
+[25.207393] (-) TimerEvent: {}
+[25.307884] (-) TimerEvent: {}
+[25.408392] (-) TimerEvent: {}
+[25.508601] (-) TimerEvent: {}
+[25.609355] (-) TimerEvent: {}
+[25.710034] (-) TimerEvent: {}
+[25.810209] (-) TimerEvent: {}
+[25.910477] (-) TimerEvent: {}
+[26.011110] (-) TimerEvent: {}
+[26.111477] (-) TimerEvent: {}
+[26.211757] (-) TimerEvent: {}
+[26.312129] (-) TimerEvent: {}
+[26.413156] (-) TimerEvent: {}
+[26.513356] (-) TimerEvent: {}
+[26.614193] (-) TimerEvent: {}
+[26.714453] (-) TimerEvent: {}
+[26.814941] (-) TimerEvent: {}
+[26.915615] (-) TimerEvent: {}
+[27.016097] (-) TimerEvent: {}
+[27.116662] (-) TimerEvent: {}
+[27.217232] (-) TimerEvent: {}
+[27.318319] (-) TimerEvent: {}
+[27.418524] (-) TimerEvent: {}
+[27.518803] (-) TimerEvent: {}
+[27.620360] (-) TimerEvent: {}
+[27.722545] (-) TimerEvent: {}
+[27.823255] (-) TimerEvent: {}
+[27.923541] (-) TimerEvent: {}
+[28.023877] (-) TimerEvent: {}
+[28.124767] (-) TimerEvent: {}
+[28.225632] (-) TimerEvent: {}
+[28.326598] (-) TimerEvent: {}
+[28.427435] (-) TimerEvent: {}
+[28.528407] (-) TimerEvent: {}
+[28.629571] (-) TimerEvent: {}
+[28.710802] (sjtu_drone_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_description/plugins/libplugin_drone.so\x1b[0m\n'}
+[28.730263] (-) TimerEvent: {}
+[28.830975] (-) TimerEvent: {}
+[28.931171] (-) TimerEvent: {}
+[29.031432] (-) TimerEvent: {}
+[29.131785] (-) TimerEvent: {}
+[29.231980] (-) TimerEvent: {}
+[29.333105] (-) TimerEvent: {}
+[29.433442] (-) TimerEvent: {}
+[29.534777] (-) TimerEvent: {}
+[29.634993] (-) TimerEvent: {}
+[29.735222] (-) TimerEvent: {}
+[29.835881] (-) TimerEvent: {}
+[29.938986] (-) TimerEvent: {}
+[30.039200] (-) TimerEvent: {}
+[30.076709] (sjtu_drone_description) StdoutLine: {'line': b'[100%] Built target plugin_drone\n'}
+[30.084953] (sjtu_drone_description) CommandEnded: {'returncode': 0}
+[30.085477] (sjtu_drone_description) JobProgress: {'identifier': 'sjtu_drone_description', 'progress': 'install'}
+[30.092546] (sjtu_drone_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/seatech/Projet_Quadcopter/build/sjtu_drone_description'], 'cwd': '/home/seatech/Projet_Quadcopter/build/sjtu_drone_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'fr_FR'), ('USER', 'seatech'), ('XDG_SEAT', 'seat0'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/seatech/ros2_ws/install/my_robot_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/seatech'), ('OLDPWD', '/home/seatech/Projet_Quadcopter/src'), ('DESKTOP_SESSION', 'xubuntu'), ('PANEL_GDK_CORE_DEVICE_EVENTS', '0'), ('ROS_PYTHON_VERSION', '3'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('QT_QPA_PLATFORMTHEME', 'gtk2'), ('COLCON_PREFIX_PATH', '/home/seatech/Projet_Quadcopter/install:/home/seatech/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'seatech'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CLUTTER_BACKEND', 'x11'), ('TERM', 'xterm-256color'), ('GTK_OVERLAY_SCROLLING', '0'), ('XDG_SESSION_ID', 'c1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/Seatech-VirtualBox:@/tmp/.ICE-unix/1106,unix/Seatech-VirtualBox:/tmp/.ICE-unix/1106'), ('GDM_LANG', 'fr_FR'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'xfce-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0.0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'fr_FR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'XFCE'), ('XDG_SESSION_DESKTOP', 'xubuntu'), ('XAUTHORITY', '/home/seatech/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('XDG_GREETER_DATA_DIR', '/var/lib/lightdm-data/seatech'), ('AMENT_PREFIX_PATH', '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup:/home/seatech/Projet_Quadcopter/install/image_subscriber:/home/seatech/Projet_Quadcopter/install/camera_control:/home/seatech/ros2_ws/install/my_robot_interfaces:/home/seatech/ros2_ws/install/my_robot_bringup:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:29ef0efb-05a9-44f1-bbc6-09c58ff8e9e8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'xubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('XDG_VTNR', '7'), ('PWD', '/home/seatech/Projet_Quadcopter/build/sjtu_drone_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-xubuntu:/etc/xdg:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share'), ('PYTHONPATH', '/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup/lib/python3.10/site-packages:/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages:/home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages:/home/seatech/ros2_ws/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/seatech/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/seatech/Projet_Quadcopter/install/sjtu_drone_description:/home/seatech/ros2_ws/install/my_robot_interfaces:/home/seatech/ros2_ws/install/my_robot_bringup:/home/seatech/Projet_Quadcopter/install/sjtu_drone_bringup:/home/seatech/Projet_Quadcopter/install/image_subscriber:/home/seatech/Projet_Quadcopter/install/camera_control:/home/seatech/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[30.097332] (sjtu_drone_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[30.097532] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/include\n'}
+[30.097593] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/include/pid_controller.h\n'}
+[30.097651] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/include/plugin_drone.h\n'}
+[30.099219] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/lib/libplugin_drone.so\n'}
+[30.113267] (sjtu_drone_description) StdoutLine: {'line': b'-- Set runtime path of "/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/lib/libplugin_drone.so" to ""\n'}
+[30.113415] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.sh\n'}
+[30.113494] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.dsv\n'}
+[30.124225] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/models\n'}
+[30.125193] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/models/database.config\n'}
+[30.125349] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone\n'}
+[30.125435] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/model.config\n'}
+[30.125489] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/sjtu_drone.sdf\n'}
+[30.125538] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.stl\n'}
+[30.125587] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.dae\n'}
+[30.125635] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/urdf\n'}
+[30.125683] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf\n'}
+[30.125730] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf.xacro\n'}
+[30.125777] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/worlds\n'}
+[30.125825] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/worlds/skenario1_3.world\n'}
+[30.125872] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/worlds/skenario2.world\n'}
+[30.125919] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/worlds/small_city.world\n'}
+[30.125966] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/worlds/playground.world\n'}
+[30.126038] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/worlds/skenario3_2.world\n'}
+[30.126100] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/ament_index/resource_index/package_run_dependencies/sjtu_drone_description\n'}
+[30.126282] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/ament_index/resource_index/parent_prefix_path/sjtu_drone_description\n'}
+[30.126350] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.sh\n'}
+[30.126417] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.dsv\n'}
+[30.126468] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.sh\n'}
+[30.126552] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.dsv\n'}
+[30.126705] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.bash\n'}
+[30.126769] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.sh\n'}
+[30.126824] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.zsh\n'}
+[30.126874] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.dsv\n'}
+[30.127627] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv\n'}
+[30.127905] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/ament_index/resource_index/packages/sjtu_drone_description\n'}
+[30.130240] (sjtu_drone_description) StdoutLine: {'line': b'-- Old export file "/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport.cmake" will be replaced.  Removing files [/home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport-noconfig.cmake].\n'}
+[30.130374] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport.cmake\n'}
+[30.130524] (sjtu_drone_description) StdoutLine: {'line': b'-- Installing: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport-noconfig.cmake\n'}
+[30.130839] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[30.130907] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[30.130961] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[30.131011] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig.cmake\n'}
+[30.131060] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig-version.cmake\n'}
+[30.131116] (sjtu_drone_description) StdoutLine: {'line': b'-- Up-to-date: /home/seatech/Projet_Quadcopter/install/sjtu_drone_description/share/sjtu_drone_description/package.xml\n'}
+[30.132069] (sjtu_drone_description) CommandEnded: {'returncode': 0}
+[30.139897] (-) TimerEvent: {}
+[30.149697] (sjtu_drone_description) JobEnded: {'identifier': 'sjtu_drone_description', 'rc': 0}
+[30.150887] (-) EventReactorShutdown: {}

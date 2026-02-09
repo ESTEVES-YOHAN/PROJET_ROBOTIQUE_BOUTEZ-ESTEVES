@@ -1,0 +1,24 @@
+[1.222s] Invoking command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber': PYTHONPATH=/home/seatech/Projet_Quadcopter/build/image_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/image_subscriber build --build-base /home/seatech/Projet_Quadcopter/build/image_subscriber/build install --record /home/seatech/Projet_Quadcopter/build/image_subscriber/install.log --install-scripts $base/lib/image_subscriber --single-version-externally-managed install_data
+[1.428s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.428s]   warnings.warn(
+[1.435s] running egg_info
+[1.435s] writing ../../../build/image_subscriber/image_subscriber.egg-info/PKG-INFO
+[1.435s] writing dependency_links to ../../../build/image_subscriber/image_subscriber.egg-info/dependency_links.txt
+[1.445s] writing entry points to ../../../build/image_subscriber/image_subscriber.egg-info/entry_points.txt
+[1.445s] writing requirements to ../../../build/image_subscriber/image_subscriber.egg-info/requires.txt
+[1.445s] writing top-level names to ../../../build/image_subscriber/image_subscriber.egg-info/top_level.txt
+[1.445s] reading manifest file '../../../build/image_subscriber/image_subscriber.egg-info/SOURCES.txt'
+[1.445s] writing manifest file '../../../build/image_subscriber/image_subscriber.egg-info/SOURCES.txt'
+[1.445s] running build
+[1.445s] running build_py
+[1.445s] running install
+[1.445s] running install_lib
+[1.446s] running install_data
+[1.446s] running install_egg_info
+[1.448s] removing '/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber-0.0.0-py3.10.egg-info' (and everything under it)
+[1.448s] Copying ../../../build/image_subscriber/image_subscriber.egg-info to /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages/image_subscriber-0.0.0-py3.10.egg-info
+[1.449s] running install_scripts
+[1.473s] Installing image_display script to /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/image_subscriber
+[1.473s] Installing pose_display script to /home/seatech/Projet_Quadcopter/install/image_subscriber/lib/image_subscriber
+[1.473s] writing list of installed files to '/home/seatech/Projet_Quadcopter/build/image_subscriber/install.log'
+[1.524s] Invoked command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/image_subscriber' returned '0': PYTHONPATH=/home/seatech/Projet_Quadcopter/build/image_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/image_subscriber/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/image_subscriber build --build-base /home/seatech/Projet_Quadcopter/build/image_subscriber/build install --record /home/seatech/Projet_Quadcopter/build/image_subscriber/install.log --install-scripts $base/lib/image_subscriber --single-version-externally-managed install_data

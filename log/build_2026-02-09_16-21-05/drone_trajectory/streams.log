@@ -1,0 +1,31 @@
+[1.263s] Invoking command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory': PYTHONPATH=/home/seatech/Projet_Quadcopter/build/drone_trajectory/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/drone_trajectory build --build-base /home/seatech/Projet_Quadcopter/build/drone_trajectory/build install --record /home/seatech/Projet_Quadcopter/build/drone_trajectory/install.log --single-version-externally-managed install_data
+[1.639s] running egg_info
+[1.640s] writing ../../../build/drone_trajectory/drone_trajectory.egg-info/PKG-INFO
+[1.644s] writing dependency_links to ../../../build/drone_trajectory/drone_trajectory.egg-info/dependency_links.txt
+[1.644s] writing entry points to ../../../build/drone_trajectory/drone_trajectory.egg-info/entry_points.txt
+[1.645s] writing requirements to ../../../build/drone_trajectory/drone_trajectory.egg-info/requires.txt
+[1.645s] writing top-level names to ../../../build/drone_trajectory/drone_trajectory.egg-info/top_level.txt
+[1.646s] reading manifest file '../../../build/drone_trajectory/drone_trajectory.egg-info/SOURCES.txt'
+[1.646s] writing manifest file '../../../build/drone_trajectory/drone_trajectory.egg-info/SOURCES.txt'
+[1.647s] running build
+[1.648s] running build_py
+[1.648s] copying drone_trajectory/sonar_graph.py -> /home/seatech/Projet_Quadcopter/build/drone_trajectory/build/lib/drone_trajectory
+[1.648s] running install
+[1.649s] running install_lib
+[1.652s] copying /home/seatech/Projet_Quadcopter/build/drone_trajectory/build/lib/drone_trajectory/sonar_graph.py -> /home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/python3.10/site-packages/drone_trajectory
+[1.653s] byte-compiling /home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/python3.10/site-packages/drone_trajectory/sonar_graph.py to sonar_graph.cpython-310.pyc
+[1.653s] running install_data
+[1.653s] running install_egg_info
+[1.654s] removing '/home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/python3.10/site-packages/drone_trajectory-0.0.0-py3.10.egg-info' (and everything under it)
+[1.662s] Copying ../../../build/drone_trajectory/drone_trajectory.egg-info to /home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/python3.10/site-packages/drone_trajectory-0.0.0-py3.10.egg-info
+[1.663s] running install_scripts
+[1.699s] Installing circle_traj script to /home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/drone_trajectory
+[1.699s] Installing seq_traj script to /home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/drone_trajectory
+[1.702s] Installing sonar_graph script to /home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/drone_trajectory
+[1.702s] Installing square_traj script to /home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/drone_trajectory
+[1.703s] Installing traj_ctrl script to /home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/drone_trajectory
+[1.703s] Installing waypoint_follower script to /home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/drone_trajectory
+[1.705s] Installing waypoint_follower2 script to /home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/drone_trajectory
+[1.710s] Installing waypoint_follower3 script to /home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/drone_trajectory
+[1.711s] writing list of installed files to '/home/seatech/Projet_Quadcopter/build/drone_trajectory/install.log'
+[1.765s] Invoked command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory' returned '0': PYTHONPATH=/home/seatech/Projet_Quadcopter/build/drone_trajectory/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/drone_trajectory/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/drone_trajectory build --build-base /home/seatech/Projet_Quadcopter/build/drone_trajectory/build install --record /home/seatech/Projet_Quadcopter/build/drone_trajectory/install.log --single-version-externally-managed install_data

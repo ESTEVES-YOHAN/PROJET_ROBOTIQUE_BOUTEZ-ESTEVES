@@ -1,0 +1,10 @@
+[console_scripts]
+circle_traj = drone_trajectory.circle_trajectory:main
+seq_traj = drone_trajectory.sequence_trajectory:main
+sonar_graph = drone_trajectory.sonar_graph:main
+square_traj = drone_trajectory.square_trajectory:main
+traj_ctrl = drone_trajectory.trajectory_control:main
+waypoint_follower = drone_trajectory.waypoint_follow:main
+waypoint_follower2 = drone_trajectory.waypoint_follow2:main
+waypoint_follower3 = drone_trajectory.waypoint_follow3:main
+

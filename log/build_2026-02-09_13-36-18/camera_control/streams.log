@@ -1,0 +1,24 @@
+[1.069s] Invoking command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control': PYTHONPATH=/home/seatech/Projet_Quadcopter/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/camera_control build --build-base /home/seatech/Projet_Quadcopter/build/camera_control/build install --record /home/seatech/Projet_Quadcopter/build/camera_control/install.log --install-scripts $base/lib/camera_control --single-version-externally-managed install_data
+[1.232s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.232s]   warnings.warn(
+[1.238s] running egg_info
+[1.239s] writing ../../../build/camera_control/camera_control.egg-info/PKG-INFO
+[1.240s] writing dependency_links to ../../../build/camera_control/camera_control.egg-info/dependency_links.txt
+[1.240s] writing entry points to ../../../build/camera_control/camera_control.egg-info/entry_points.txt
+[1.240s] writing requirements to ../../../build/camera_control/camera_control.egg-info/requires.txt
+[1.240s] writing top-level names to ../../../build/camera_control/camera_control.egg-info/top_level.txt
+[1.243s] reading manifest file '../../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+[1.244s] writing manifest file '../../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+[1.244s] running build
+[1.244s] running build_py
+[1.245s] running install
+[1.245s] running install_lib
+[1.246s] running install_data
+[1.247s] running install_egg_info
+[1.248s] removing '/home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.248s] Copying ../../../build/camera_control/camera_control.egg-info to /home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.0-py3.10.egg-info
+[1.249s] running install_scripts
+[1.265s] Installing ibvs_pid script to /home/seatech/Projet_Quadcopter/install/camera_control/lib/camera_control
+[1.265s] Installing ibvs_smc script to /home/seatech/Projet_Quadcopter/install/camera_control/lib/camera_control
+[1.266s] writing list of installed files to '/home/seatech/Projet_Quadcopter/build/camera_control/install.log'
+[1.288s] Invoked command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/camera_control' returned '0': PYTHONPATH=/home/seatech/Projet_Quadcopter/build/camera_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/camera_control build --build-base /home/seatech/Projet_Quadcopter/build/camera_control/build install --record /home/seatech/Projet_Quadcopter/build/camera_control/install.log --install-scripts $base/lib/camera_control --single-version-externally-managed install_data

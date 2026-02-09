@@ -1,0 +1,22 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../../build/camera_control/camera_control.egg-info/PKG-INFO
+writing dependency_links to ../../../build/camera_control/camera_control.egg-info/dependency_links.txt
+writing entry points to ../../../build/camera_control/camera_control.egg-info/entry_points.txt
+writing requirements to ../../../build/camera_control/camera_control.egg-info/requires.txt
+writing top-level names to ../../../build/camera_control/camera_control.egg-info/top_level.txt
+reading manifest file '../../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+writing manifest file '../../../build/camera_control/camera_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/camera_control/camera_control.egg-info to /home/seatech/Projet_Quadcopter/install/camera_control/lib/python3.10/site-packages/camera_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing ibvs_pid script to /home/seatech/Projet_Quadcopter/install/camera_control/lib/camera_control
+Installing ibvs_smc script to /home/seatech/Projet_Quadcopter/install/camera_control/lib/camera_control
+writing list of installed files to '/home/seatech/Projet_Quadcopter/build/camera_control/install.log'

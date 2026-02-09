@@ -1,0 +1,42 @@
+[1.546s] Invoking command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup': PYTHONPATH=/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sjtu_drone_bringup build --build-base /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_bringup/build install --record /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data
+[1.877s] running egg_info
+[1.878s] creating ../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info
+[1.878s] writing ../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/PKG-INFO
+[1.878s] writing dependency_links to ../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/dependency_links.txt
+[1.878s] writing entry points to ../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/entry_points.txt
+[1.882s] writing requirements to ../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/requires.txt
+[1.882s] writing top-level names to ../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/top_level.txt
+[1.882s] writing manifest file '../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'
+[1.885s] reading manifest file '../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'
+[1.886s] writing manifest file '../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'
+[1.887s] running build
+[1.887s] running build_py
+[1.887s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_bringup/build
+[1.888s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_bringup/build/lib
+[1.888s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_bringup/build/lib/sjtu_drone_bringup
+[1.890s] copying sjtu_drone_bringup/__init__.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_bringup/build/lib/sjtu_drone_bringup
+[1.893s] copying sjtu_drone_bringup/spawn_drone.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_bringup/build/lib/sjtu_drone_bringup
+[1.893s] running install
+[1.894s] running install_lib
+[1.899s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup
+[1.899s] copying /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_bringup/build/lib/sjtu_drone_bringup/__init__.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup
+[1.899s] copying /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_bringup/build/lib/sjtu_drone_bringup/spawn_drone.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup
+[1.900s] byte-compiling /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup/__init__.py to __init__.cpython-310.pyc
+[1.900s] byte-compiling /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup/spawn_drone.py to spawn_drone.cpython-310.pyc
+[1.900s] running install_data
+[1.900s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/share/ament_index
+[1.900s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/share/ament_index/resource_index
+[1.900s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/share/ament_index/resource_index/packages
+[1.900s] copying resource/sjtu_drone_bringup -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/share/ament_index/resource_index/packages
+[1.900s] copying package.xml -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/share/sjtu_drone_bringup
+[1.900s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch
+[1.900s] copying launch/sjtu_drone_gazebo.launch.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch
+[1.900s] copying launch/sjtu_drone_bringup.launch.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/share/sjtu_drone_bringup/launch
+[1.901s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/share/sjtu_drone_bringup/rviz
+[1.901s] copying rviz/rviz.rviz -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/share/sjtu_drone_bringup/rviz
+[1.901s] running install_egg_info
+[1.903s] Copying ../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info to /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup-0.0.0-py3.10.egg-info
+[1.904s] running install_scripts
+[1.935s] Installing spawn_drone script to /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/lib/sjtu_drone_bringup
+[1.935s] writing list of installed files to '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_bringup/install.log'
+[1.965s] Invoked command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/sjtu_drone_bringup' returned '0': PYTHONPATH=/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sjtu_drone_bringup build --build-base /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_bringup/build install --record /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data

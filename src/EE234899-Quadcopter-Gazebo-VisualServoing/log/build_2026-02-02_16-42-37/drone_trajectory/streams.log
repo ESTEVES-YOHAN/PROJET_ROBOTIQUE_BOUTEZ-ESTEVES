@@ -1,0 +1,35 @@
+[1.012s] Invoking command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory': PYTHONPATH=/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/drone_trajectory/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/drone_trajectory/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/drone_trajectory build --build-base /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/drone_trajectory/build install --record /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/drone_trajectory/install.log --single-version-externally-managed install_data
+[1.297s] running egg_info
+[1.298s] creating ../build/drone_trajectory/drone_trajectory.egg-info
+[1.299s] writing ../build/drone_trajectory/drone_trajectory.egg-info/PKG-INFO
+[1.299s] writing dependency_links to ../build/drone_trajectory/drone_trajectory.egg-info/dependency_links.txt
+[1.299s] writing entry points to ../build/drone_trajectory/drone_trajectory.egg-info/entry_points.txt
+[1.299s] writing requirements to ../build/drone_trajectory/drone_trajectory.egg-info/requires.txt
+[1.300s] writing top-level names to ../build/drone_trajectory/drone_trajectory.egg-info/top_level.txt
+[1.300s] writing manifest file '../build/drone_trajectory/drone_trajectory.egg-info/SOURCES.txt'
+[1.300s] reading manifest file '../build/drone_trajectory/drone_trajectory.egg-info/SOURCES.txt'
+[1.301s] writing manifest file '../build/drone_trajectory/drone_trajectory.egg-info/SOURCES.txt'
+[1.301s] running build
+[1.301s] running build_py
+[1.301s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/drone_trajectory/build
+[1.302s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/drone_trajectory/build/lib
+[1.302s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/drone_trajectory/build/lib/drone_trajectory
+[1.302s] copying drone_trajectory/__init__.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/drone_trajectory/build/lib/drone_trajectory
+[1.302s] running install
+[1.302s] running install_lib
+[1.303s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/drone_trajectory/lib/python3.10/site-packages/drone_trajectory
+[1.303s] copying /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/drone_trajectory/build/lib/drone_trajectory/__init__.py -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/drone_trajectory/lib/python3.10/site-packages/drone_trajectory
+[1.303s] byte-compiling /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/drone_trajectory/lib/python3.10/site-packages/drone_trajectory/__init__.py to __init__.cpython-310.pyc
+[1.304s] running install_data
+[1.304s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/drone_trajectory/share
+[1.304s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/drone_trajectory/share/ament_index
+[1.304s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/drone_trajectory/share/ament_index/resource_index
+[1.304s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/drone_trajectory/share/ament_index/resource_index/packages
+[1.304s] copying resource/drone_trajectory -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/drone_trajectory/share/ament_index/resource_index/packages
+[1.304s] creating /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/drone_trajectory/share/drone_trajectory
+[1.304s] copying package.xml -> /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/drone_trajectory/share/drone_trajectory
+[1.304s] running install_egg_info
+[1.305s] Copying ../build/drone_trajectory/drone_trajectory.egg-info to /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/drone_trajectory/lib/python3.10/site-packages/drone_trajectory-0.0.0-py3.10.egg-info
+[1.306s] running install_scripts
+[1.337s] writing list of installed files to '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/drone_trajectory/install.log'
+[1.370s] Invoked command in '/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/drone_trajectory' returned '0': PYTHONPATH=/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/drone_trajectory/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/install/drone_trajectory/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/drone_trajectory build --build-base /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/drone_trajectory/build install --record /home/seatech/Projet_Quadcopter/src/EE234899-Quadcopter-Gazebo-VisualServoing/build/drone_trajectory/install.log --single-version-externally-managed install_data

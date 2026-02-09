@@ -1,0 +1,30 @@
+- Start Gazebo + spawn drone : 
+ros2 launch  sjtu_drone_bringup sjtu_drone_bringup.launch.py
+
+- Start camera capture and take off the drone :
+ros2 run image_subscriber pose_display
+
+- Start IBVS for the drone to go if you want IBVS-PID
+ros2 run camera_control ibvs_pid
+
+for IBVS-SMC :
+ros2 run camera_control ibvs-smc
+
+- Land Drone :
+ros2 topic pub /drone/land std_msgs/msg/Empty {} --once
+
+	"Cette commande publie un message vide sur le topic /drone/land.
+	Les nodes abonnés à ce topic interprètent ce message comme une 
+	commande d’atterrissage et exécutent une descente."
+
+- Takeoff Drone :
+ros2 topic pub /drone/takeoff std_msgs/msg/Empty {} --once
+
+- Avancer
+Publier un message sur le topic /drone/cmd_vel avec en donnée linéaire x,y,z
+la vitesse sur les axes
+et les données de angular
+
+
+- Record Data :
+ros2 bag record /corner_data /error_data /drone/gt_pose /drone/gt_vel /drone/gt_acc /drone/cmd_vel -o dataname
