@@ -28,5 +28,60 @@ Afin de lancer ce projet il est necessaire de réaliser une installation de ROS2
 Ensuite il faut cloner le projet sur la machine locale :
 
 ```
-git clone 
+git clone https://github.com/ESTEVES-YOHAN/PROJET_ROBOTIQUE_BOUTEZ-ESTEVES.git
+```
+Puis se placer dans le dossier du projet avant de faire :
+
+```
+colcon build
+source install/setup.bash
+```
+Ensuite, pour lancer Gazebo ainsi que le drône :
+
+```
+ros2 launch  sjtu_drone_bringup sjtu_drone_bringup.launch.py
+```
+
+Puis pour lancer la caméra et faire décoller le drône :
+
+```
+ros2 run image_subscriber pose_display
+```
+
+### Lancement des fonctionnalités
+
+- Atterrir :
+```
+ros2 topic pub /drone/land std_msgs/msg/Empty {} --once
+```
+
+- Décoller :
+```
+ros2 topic pub /drone/takeoff std_msgs/msg/Empty {} --once
+```
+
+- Trajectoire Circulaire :
+```
+ros2 run drone_trajectory circle_traj
+```
+- Trajectoire Carré :
+```
+ros2 run drone_trajectory square_traj
+```
+- Trajectoire séquentielle :
+```
+ros2 run drone_trajectory seq_traj
+```
+- Trajectoire Waypoint Follow :
+```
+ros2 run drone_trajectory waypoint_follower2
+```
+- Trajectoire Waypoint Follow + séquence d'urgence :
+```
+ros2 run drone_trajectory waypoint_follower3
+```
+
+De plus, il est possible de voir en direct les données envoyées par le sonar via le node :
+```
+ros2 run drone_trajectory sonar_graph
 ```
